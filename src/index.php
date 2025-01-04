@@ -8,13 +8,13 @@
     <title>Wonderfully Useless Welcome Page</title>
 </head>
 
-<body>>
+<body>
     <span id="header" class="center">
         <h1>Usefully Useless Things</h1>
     </span>
-
-    <iframe id="navbar" scrolling="no" src="navbar.html"></iframe>
-
+    <span class="navbar-container center" id="navbar">
+        <?php include ("includes/navbar.php"); ?>
+    </span>
     <div class="body">
         <div style="padding-left:16px">
             <h2>Welcome!</h2>

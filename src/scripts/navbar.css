@@ -1,4 +1,4 @@
-iframe#navbar {
+.navbar-container {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -7,8 +7,7 @@ iframe#navbar {
     border: none;
     padding: 0;
     margin: 0;
-    overflow: "hidden";
-    z-index: 10;
+    z-index: 100;
 }
 
   /* Style the navbar */
