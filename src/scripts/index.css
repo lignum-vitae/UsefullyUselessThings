@@ -29,6 +29,11 @@
     }
 }
 
+#header {
+    text-align: center;
+    margin-top: 1em;
+}
+
 .body {
     margin-left: 5em;
     margin-right: 5em;

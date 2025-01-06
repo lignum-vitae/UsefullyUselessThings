@@ -1,22 +1,9 @@
-.navbar-container {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    width: 100%;
-    height: 3em;
-    border: none;
-    padding: 0;
-    margin: 0;
-    z-index: 100;
+.navbar-safari {
+    position: -webkit-sticky; /* For Safari */
 }
 
-  /* Style the navbar */
-  #navbar {
-    overflow: hidden;
-  }
-
-  /* Navbar links */
-  #navbar a {
+/* Navbar links */
+#navbar a {
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
@@ -26,13 +13,13 @@
     text-decoration: none;
   }
 
-  #navbar a:hover{
+#navbar a:hover{
     background-color: #ddd;
     color: black;
   }
 
-  /* Fade-in navbar backgroud colour and shadow */
-  .transition {
+/* Fade-in navbar backgroud colour and shadow */
+.transition {
     -webkit-transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
     -moz-transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
     -ms-transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
@@ -40,8 +27,8 @@
     transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
-  /* Fade-out navbar backgroud colour and shadow */
-  .endtransition {
+/* Fade-out navbar backgroud colour and shadow */
+.endtransition {
     background-color: transparent;
     box-shadow: none;
     -webkit-transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
