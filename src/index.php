@@ -38,12 +38,12 @@ $content = <<< INDEX
         </p>
     </div>
     <div class="centre">
-        <img style="width: 20vw" alt="Flag of the Bahamas" src="index_page_flags/Flag_of_the_Bahamas.svg.png">
-        <img style="width: 15vw" alt="Flag of Maryland" src="index_page_flags/Flag_of_Maryland.svg.png">
-        <img style="width: 15vw" alt="Flag of Barbados" src="index_page_flags/Flag_of_Barbados.svg.png">
-        <img style="width: 15vw" alt="Flag of the Czech Republic"
+        <img style="width: 20vw; max-width: 22em;" alt="Flag of the Bahamas" src="index_page_flags/Flag_of_the_Bahamas.svg.png">
+        <img style="width: 15vw; max-width: 17em;" alt="Flag of Maryland" src="index_page_flags/Flag_of_Maryland.svg.png">
+        <img style="width: 15vw; max-width: 17em;" alt="Flag of Barbados" src="index_page_flags/Flag_of_Barbados.svg.png">
+        <img style="width: 15vw; max-width: 17em;" alt="Flag of the Czech Republic"
             src="index_page_flags/Flag_of_the_Czech_Republic.svg.png">
-        <img style="width: 19vw" alt="Flag of the United States (DoS ECA Color Standard)"
+        <img style="width: 19vw; max-width: 21em;" alt="Flag of the United States (DoS ECA Color Standard)"
             src="index_page_flags/Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg.png">
     </div>
 INDEX;
