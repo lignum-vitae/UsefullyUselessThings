@@ -1,5 +1,7 @@
+#!/usr/bin/python -u
 #import requests as req
 #from bs4 import BeautifulSoup
+import sys
 import urllib.request
 import urllib.parse as urlparse
 from urllib.parse import urlencode
@@ -33,10 +35,10 @@ def limited_lines_read(url_data, numberoflines, linearray):
     return linearray
 dataarray = []
 for line in limited_lines_read(data, 6, dataarray):
-    print(line)
+    print(f"<li>{line}</li>")
 
-print(type(dataarray[0]))
+#print(type(dataarray[0]))
 acronym_to_index ={"YY":0, "MM":1, "DD":2, "hh":3, "mm":4, "WDIR":5, "WSPD":6, 
                    "GST":7, "WVHT":8, "DPD":9, "APD":10, "MWD":11, "PRES":12, 
                    "ATMP":13, "WTMP":14, "DEWP":15, "VIS": 16, "PTDY":17, "TIDE":18}
-print(acronym_to_index)
+#print(acronym_to_index)
