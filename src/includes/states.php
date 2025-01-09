@@ -8,5 +8,8 @@
 if (isset($data)) {
     echo "<ul style=\"list-style:none;\">$data</ul>";
 }
+if (isset($cards)) {
+    echo "<ul style=\"list-style:none;\">$cards</ul>";
+}
 ?>
 <?php include "../../../includes/states_footer.html" ?>
