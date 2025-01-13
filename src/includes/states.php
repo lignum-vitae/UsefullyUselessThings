@@ -1,5 +1,11 @@
 <?php /*All files relative to files in src/countries/US/states/... */ ?>
-<?php include "../../../includes/states_header.html" ?>
+<?php
+    ob_start();
+    include("../../../includes/states_header.html");
+    $buffer = ob_get_clean();
+    $buffer = preg_replace('/(<title>)(.*?)(<\/title>)/i', '$1' . $state . '$3', $buffer);
+    echo $buffer;
+?>
 <?php include "../../../includes/heading.html" ?>
 <?php include "../../../includes/state_flag.php" ?>
 <?php include "../../../nav/navbar.html" ?>
