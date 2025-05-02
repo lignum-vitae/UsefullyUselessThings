@@ -24,6 +24,8 @@
     </div>
 
     <h2 style="text-align:center;"> Click on a county to see links to green spaces and gardens! </h2>
+
+    <!-- SVG Maryland Map -->
     <div>
         <svg id="map" preserveAspectRatio="xMinYmin meet" xmlns="http://www.w3.org/2000/svg" version="1.2"
             baseProfile="tiny" viewBox="0 0 810 433" stroke-linecap="round" stroke-linejoin="round">
@@ -282,8 +284,13 @@
         </div>
     </div>
 
+    <!-- Bay Weather Chart - Now after the map -->
+    <h2 style="text-align:center;">Chesapeake Bay Weather Data</h2>
+    <div id="charts"></div>
+    <script src="../../../scripts/data/charts/bayChart.js"></script>
 
 
+    <!-- Button to planting calendar -->
     <script src="../scripts/htmx/sweetalert2.js"></script>
     <div style="padding-top: 2em; padding-bottom:2em;">
         <button class="btn endtransition" hx-get="/confirmed" hx-trigger='confirmed' onClick="Swal.fire({title: 'You\'re about to go to an external site', 

@@ -1,0 +1,2594 @@
+{
+    "CB10": {
+        "bdo": {
+            "January": {
+                "Minimum": "12.10",
+                "Mean": "13.45",
+                "Maximum": "15.88",
+                "2024": "21.50",
+                "2025": "14.10"
+            },
+            "February": {
+                "Minimum": "12.50",
+                "Mean": "13.72",
+                "Maximum": "15.78",
+                "2024": "13.00",
+                "2025": "14.20"
+            },
+            "March": {
+                "Minimum": "11.70",
+                "Mean": "13.06",
+                "Maximum": "14.38",
+                "2024": "11.80",
+                "2025": "12.90"
+            },
+            "April": {
+                "Minimum": "9.10",
+                "Mean": "11.26",
+                "Maximum": "13.20",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "7.50",
+                "Mean": "9.63",
+                "Maximum": "11.50",
+                "2024": "10.90",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "5.10",
+                "Mean": "7.58",
+                "Maximum": "9.50",
+                "2024": "6.80",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "5.50",
+                "Mean": "7.09",
+                "Maximum": "8.90",
+                "2024": "8.30",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "4.70",
+                "Mean": "7.03",
+                "Maximum": "9.10",
+                "2024": "7.80",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "5.30",
+                "Mean": "7.25",
+                "Maximum": "9.10",
+                "2024": "9.30",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "5.99",
+                "Mean": "8.75",
+                "Maximum": "10.60",
+                "2024": "8.60",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "8.30",
+                "Mean": "10.28",
+                "Maximum": "13.29",
+                "2024": "8.30",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "8.90",
+                "Mean": "12.23",
+                "Maximum": "14.09",
+                "2024": "11.70",
+                "2025": "Not Sampled"
+            }
+        },
+        "wt": {
+            "January": {
+                "Minimum": "32.70",
+                "Mean": "37.60",
+                "Maximum": "46.00",
+                "2024": "43.30",
+                "2025": "33.10"
+            },
+            "February": {
+                "Minimum": "32.00",
+                "Mean": "37.20",
+                "Maximum": "44.10",
+                "2024": "42.10",
+                "2025": "37.80"
+            },
+            "March": {
+                "Minimum": "33.60",
+                "Mean": "41.00",
+                "Maximum": "46.60",
+                "2024": "49.60",
+                "2025": "40.80"
+            },
+            "April": {
+                "Minimum": "43.90",
+                "Mean": "51.90",
+                "Maximum": "68.00",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "54.90",
+                "Mean": "62.90",
+                "Maximum": "71.40",
+                "2024": "65.70",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "62.20",
+                "Mean": "74.10",
+                "Maximum": "81.30",
+                "2024": "77.00",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "74.80",
+                "Mean": "81.80",
+                "Maximum": "86.90",
+                "2024": "82.40",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "75.00",
+                "Mean": "82.50",
+                "Maximum": "88.50",
+                "2024": "84.60",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "66.70",
+                "Mean": "78.00",
+                "Maximum": "83.80",
+                "2024": "79.70",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "53.10",
+                "Mean": "66.20",
+                "Maximum": "77.70",
+                "2024": "75.70",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "45.90",
+                "Mean": "53.80",
+                "Maximum": "60.80",
+                "2024": "63.30",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "32.20",
+                "Mean": "43.20",
+                "Maximum": "55.00",
+                "2024": "44.20",
+                "2025": "Not Sampled"
+            }
+        },
+        "sec": {
+            "January": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "March": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "April": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "Not Sampled",
+                "Mean": "Not Sampled",
+                "Maximum": "Not Sampled",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            }
+        },
+        "sal": {
+            "January": {
+                "Minimum": "0.00",
+                "Mean": "0.03",
+                "Maximum": "0.10",
+                "2024": "0.10",
+                "2025": "0.10"
+            },
+            "February": {
+                "Minimum": "0.00",
+                "Mean": "0.03",
+                "Maximum": "0.10",
+                "2024": "0.10",
+                "2025": "0.10"
+            },
+            "March": {
+                "Minimum": "0.00",
+                "Mean": "0.04",
+                "Maximum": "0.20",
+                "2024": "0.10",
+                "2025": "0.10"
+            },
+            "April": {
+                "Minimum": "0.00",
+                "Mean": "0.03",
+                "Maximum": "0.10",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.00",
+                "Mean": "0.03",
+                "Maximum": "0.10",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.00",
+                "Mean": "0.04",
+                "Maximum": "0.10",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.00",
+                "Mean": "0.04",
+                "Maximum": "0.20",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.00",
+                "Mean": "0.05",
+                "Maximum": "0.20",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.00",
+                "Mean": "0.06",
+                "Maximum": "0.20",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "0.00",
+                "Mean": "0.06",
+                "Maximum": "0.20",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "0.00",
+                "Mean": "0.04",
+                "Maximum": "0.20",
+                "2024": "0.20",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "0.00",
+                "Mean": "0.04",
+                "Maximum": "0.20",
+                "2024": "0.20",
+                "2025": "Not Sampled"
+            }
+        },
+        "ph": {
+            "January": {
+                "Minimum": "6.80",
+                "Mean": "7.54",
+                "Maximum": "8.60",
+                "2024": "7.50",
+                "2025": "7.70"
+            },
+            "February": {
+                "Minimum": "7.00",
+                "Mean": "7.60",
+                "Maximum": "8.60",
+                "2024": "7.30",
+                "2025": "8.00"
+            },
+            "March": {
+                "Minimum": "6.70",
+                "Mean": "7.50",
+                "Maximum": "8.70",
+                "2024": "7.90",
+                "2025": "7.50"
+            },
+            "April": {
+                "Minimum": "6.80",
+                "Mean": "7.55",
+                "Maximum": "8.60",
+                "2024": "Not Sampled",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "6.40",
+                "Mean": "7.59",
+                "Maximum": "8.70",
+                "2024": "8.20",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "7.10",
+                "Mean": "7.49",
+                "Maximum": "8.60",
+                "2024": "7.00",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "7.00",
+                "Mean": "7.41",
+                "Maximum": "7.90",
+                "2024": "7.50",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "6.50",
+                "Mean": "7.28",
+                "Maximum": "7.90",
+                "2024": "7.70",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "6.50",
+                "Mean": "7.35",
+                "Maximum": "7.80",
+                "2024": "8.10",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "6.10",
+                "Mean": "7.35",
+                "Maximum": "8.20",
+                "2024": "7.40",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "6.80",
+                "Mean": "7.53",
+                "Maximum": "8.10",
+                "2024": "7.60",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "6.60",
+                "Mean": "7.47",
+                "Maximum": "8.60",
+                "2024": "8.00",
+                "2025": "Not Sampled"
+            }
+        }
+    },
+    "CB11": {
+        "bdo": {
+            "January": {
+                "Minimum": "11.80",
+                "Mean": "13.37",
+                "Maximum": "14.70",
+                "2024": "14.40",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "12.20",
+                "Mean": "13.56",
+                "Maximum": "14.50",
+                "2024": "13.00",
+                "2025": "Not Sampled"
+            },
+            "March": {
+                "Minimum": "10.30",
+                "Mean": "12.59",
+                "Maximum": "14.50",
+                "2024": "10.90",
+                "2025": "11.10"
+            },
+            "April": {
+                "Minimum": "9.15",
+                "Mean": "10.96",
+                "Maximum": "12.45",
+                "2024": "10.50",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "7.25",
+                "Mean": "9.09",
+                "Maximum": "11.00",
+                "2024": "8.90",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "5.45",
+                "Mean": "7.12",
+                "Maximum": "9.00",
+                "2024": "7.85",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "5.65",
+                "Mean": "6.79",
+                "Maximum": "8.70",
+                "2024": "7.00",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "6.05",
+                "Mean": "7.02",
+                "Maximum": "8.05",
+                "2024": "8.15",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "6.60",
+                "Mean": "7.67",
+                "Maximum": "10.40",
+                "2024": "7.00",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "7.19",
+                "Mean": "8.90",
+                "Maximum": "10.25",
+                "2024": "9.30",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "8.80",
+                "Mean": "10.86",
+                "Maximum": "13.70",
+                "2024": "9.60",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "9.60",
+                "Mean": "12.47",
+                "Maximum": "14.20",
+                "2024": "11.90",
+                "2025": "Not Sampled"
+            }
+        },
+        "wt": {
+            "January": {
+                "Minimum": "33.60",
+                "Mean": "38.00",
+                "Maximum": "43.00",
+                "2024": "34.90",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "34.00",
+                "Mean": "37.10",
+                "Maximum": "41.90",
+                "2024": "43.00",
+                "2025": "Not Sampled"
+            },
+            "March": {
+                "Minimum": "36.00",
+                "Mean": "43.10",
+                "Maximum": "54.50",
+                "2024": "50.70",
+                "2025": "48.90"
+            },
+            "April": {
+                "Minimum": "47.10",
+                "Mean": "53.50",
+                "Maximum": "62.80",
+                "2024": "57.00",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "56.30",
+                "Mean": "65.30",
+                "Maximum": "71.80",
+                "2024": "64.00",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "71.40",
+                "Mean": "76.60",
+                "Maximum": "82.30",
+                "2024": "82.20",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "73.90",
+                "Mean": "82.50",
+                "Maximum": "86.10",
+                "2024": "87.80",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "75.50",
+                "Mean": "81.40",
+                "Maximum": "85.60",
+                "2024": "76.90",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "61.20",
+                "Mean": "74.60",
+                "Maximum": "82.00",
+                "2024": "75.00",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "56.30",
+                "Mean": "62.70",
+                "Maximum": "69.60",
+                "2024": "64.90",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "39.90",
+                "Mean": "50.30",
+                "Maximum": "58.50",
+                "2024": "56.80",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "34.50",
+                "Mean": "41.90",
+                "Maximum": "52.90",
+                "2024": "46.40",
+                "2025": "Not Sampled"
+            }
+        },
+        "sec": {
+            "January": {
+                "Minimum": "0.30",
+                "Mean": "0.95",
+                "Maximum": "1.80",
+                "2024": "1.20",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "0.20",
+                "Mean": "1.02",
+                "Maximum": "2.60",
+                "2024": "2.00",
+                "2025": "Not Sampled"
+            },
+            "March": {
+                "Minimum": "0.10",
+                "Mean": "0.69",
+                "Maximum": "1.80",
+                "2024": "0.60",
+                "2025": "0.70"
+            },
+            "April": {
+                "Minimum": "0.25",
+                "Mean": "0.61",
+                "Maximum": "1.10",
+                "2024": "0.40",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.40",
+                "Mean": "0.78",
+                "Maximum": "1.20",
+                "2024": "0.80",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.40",
+                "Mean": "0.86",
+                "Maximum": "1.25",
+                "2024": "1.05",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.40",
+                "Mean": "1.02",
+                "Maximum": "1.40",
+                "2024": "1.10",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.25",
+                "Mean": "1.06",
+                "Maximum": "1.60",
+                "2024": "0.55",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.05",
+                "Mean": "1.04",
+                "Maximum": "1.80",
+                "2024": "1.60",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "0.20",
+                "Mean": "1.07",
+                "Maximum": "2.20",
+                "2024": "1.60",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "0.10",
+                "Mean": "0.91",
+                "Maximum": "1.50",
+                "2024": "2.00",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "0.30",
+                "Mean": "0.96",
+                "Maximum": "1.60",
+                "2024": "1.40",
+                "2025": "Not Sampled"
+            }
+        },
+        "sal": {
+            "January": {
+                "Minimum": "0.00",
+                "Mean": "0.02",
+                "Maximum": "0.10",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "0.00",
+                "Mean": "0.02",
+                "Maximum": "0.20",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "March": {
+                "Minimum": "0.00",
+                "Mean": "0.02",
+                "Maximum": "0.28",
+                "2024": "0.10",
+                "2025": "0.10"
+            },
+            "April": {
+                "Minimum": "0.00",
+                "Mean": "0.01",
+                "Maximum": "0.10",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.00",
+                "Mean": "0.02",
+                "Maximum": "0.10",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.00",
+                "Mean": "0.02",
+                "Maximum": "0.15",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.00",
+                "Mean": "0.02",
+                "Maximum": "0.20",
+                "2024": "0.20",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.00",
+                "Mean": "0.02",
+                "Maximum": "0.20",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.00",
+                "Mean": "0.03",
+                "Maximum": "0.20",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "0.00",
+                "Mean": "0.02",
+                "Maximum": "0.20",
+                "2024": "0.20",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "0.00",
+                "Mean": "0.02",
+                "Maximum": "0.20",
+                "2024": "0.20",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "0.00",
+                "Mean": "0.01",
+                "Maximum": "0.10",
+                "2024": "0.20",
+                "2025": "Not Sampled"
+            }
+        },
+        "ph": {
+            "January": {
+                "Minimum": "7.40",
+                "Mean": "7.93",
+                "Maximum": "8.90",
+                "2024": "7.90",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "7.50",
+                "Mean": "8.00",
+                "Maximum": "9.00",
+                "2024": "8.30",
+                "2025": "Not Sampled"
+            },
+            "March": {
+                "Minimum": "7.35",
+                "Mean": "7.85",
+                "Maximum": "9.00",
+                "2024": "7.50",
+                "2025": "7.90"
+            },
+            "April": {
+                "Minimum": "7.33",
+                "Mean": "7.81",
+                "Maximum": "8.69",
+                "2024": "7.70",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "7.22",
+                "Mean": "7.85",
+                "Maximum": "8.80",
+                "2024": "8.00",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "7.15",
+                "Mean": "7.69",
+                "Maximum": "8.30",
+                "2024": "8.25",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "7.50",
+                "Mean": "7.80",
+                "Maximum": "8.41",
+                "2024": "7.85",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "7.60",
+                "Mean": "7.83",
+                "Maximum": "8.22",
+                "2024": "8.00",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "7.55",
+                "Mean": "7.82",
+                "Maximum": "8.30",
+                "2024": "7.60",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "7.40",
+                "Mean": "7.87",
+                "Maximum": "8.50",
+                "2024": "8.10",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "7.40",
+                "Mean": "7.87",
+                "Maximum": "8.60",
+                "2024": "8.20",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "7.15",
+                "Mean": "7.81",
+                "Maximum": "8.90",
+                "2024": "8.40",
+                "2025": "Not Sampled"
+            }
+        }
+    },
+    "WT51": {
+        "bdo": {
+            "January": {
+                "Minimum": "5.20",
+                "Mean": "8.51",
+                "Maximum": "12.80",
+                "2024": "8.00",
+                "2025": "11.40"
+            },
+            "February": {
+                "Minimum": "5.10",
+                "Mean": "8.83",
+                "Maximum": "11.30",
+                "2024": "8.20",
+                "2025": "9.70"
+            },
+            "March": {
+                "Minimum": "4.05",
+                "Mean": "7.18",
+                "Maximum": "10.60",
+                "2024": "4.40",
+                "2025": "9.90"
+            },
+            "April": {
+                "Minimum": "0.30",
+                "Mean": "4.16",
+                "Maximum": "7.70",
+                "2024": "2.50",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.00",
+                "Mean": "1.70",
+                "Maximum": "5.70",
+                "2024": "1.10",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.00",
+                "Mean": "0.58",
+                "Maximum": "2.80",
+                "2024": "1.20",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.00",
+                "Mean": "0.20",
+                "Maximum": "1.62",
+                "2024": "0.20",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.00",
+                "Mean": "0.24",
+                "Maximum": "0.97",
+                "2024": "3.00",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.00",
+                "Mean": "1.01",
+                "Maximum": "3.75",
+                "2024": "0.30",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "0.30",
+                "Mean": "3.48",
+                "Maximum": "7.70",
+                "2024": "0.60",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "3.10",
+                "Mean": "6.36",
+                "Maximum": "9.40",
+                "2024": "7.40",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "5.10",
+                "Mean": "7.56",
+                "Maximum": "11.00",
+                "2024": "9.80",
+                "2025": "Not Sampled"
+            }
+        },
+        "wt": {
+            "January": {
+                "Minimum": "33.10",
+                "Mean": "38.40",
+                "Maximum": "44.10",
+                "2024": "43.70",
+                "2025": "35.80"
+            },
+            "February": {
+                "Minimum": "33.40",
+                "Mean": "37.70",
+                "Maximum": "42.80",
+                "2024": "43.00",
+                "2025": "34.70"
+            },
+            "March": {
+                "Minimum": "37.40",
+                "Mean": "43.40",
+                "Maximum": "49.70",
+                "2024": "51.30",
+                "2025": "45.50"
+            },
+            "April": {
+                "Minimum": "46.40",
+                "Mean": "54.50",
+                "Maximum": "61.30",
+                "2024": "56.30",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "59.00",
+                "Mean": "64.80",
+                "Maximum": "74.80",
+                "2024": "64.60",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "71.60",
+                "Mean": "75.80",
+                "Maximum": "81.70",
+                "2024": "73.40",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "76.90",
+                "Mean": "81.50",
+                "Maximum": "86.50",
+                "2024": "84.40",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "77.20",
+                "Mean": "81.20",
+                "Maximum": "84.40",
+                "2024": "82.80",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "69.60",
+                "Mean": "75.20",
+                "Maximum": "79.30",
+                "2024": "73.00",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "57.70",
+                "Mean": "64.70",
+                "Maximum": "70.50",
+                "2024": "71.60",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "45.50",
+                "Mean": "52.80",
+                "Maximum": "62.20",
+                "2024": "59.50",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "37.90",
+                "Mean": "44.10",
+                "Maximum": "51.60",
+                "2024": "40.50",
+                "2025": "Not Sampled"
+            }
+        },
+        "sec": {
+            "January": {
+                "Minimum": "0.40",
+                "Mean": "1.07",
+                "Maximum": "2.00",
+                "2024": "1.30",
+                "2025": "0.90"
+            },
+            "February": {
+                "Minimum": "0.20",
+                "Mean": "1.10",
+                "Maximum": "2.00",
+                "2024": "1.10",
+                "2025": "1.40"
+            },
+            "March": {
+                "Minimum": "0.40",
+                "Mean": "0.86",
+                "Maximum": "1.60",
+                "2024": "0.60",
+                "2025": "1.50"
+            },
+            "April": {
+                "Minimum": "0.35",
+                "Mean": "0.74",
+                "Maximum": "1.35",
+                "2024": "0.80",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.30",
+                "Mean": "0.78",
+                "Maximum": "1.40",
+                "2024": "0.60",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.50",
+                "Mean": "0.71",
+                "Maximum": "1.20",
+                "2024": "0.60",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.40",
+                "Mean": "0.66",
+                "Maximum": "0.95",
+                "2024": "0.70",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.40",
+                "Mean": "0.70",
+                "Maximum": "1.00",
+                "2024": "0.40",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.40",
+                "Mean": "0.86",
+                "Maximum": "1.35",
+                "2024": "0.80",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "0.60",
+                "Mean": "1.07",
+                "Maximum": "1.70",
+                "2024": "0.90",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "0.17",
+                "Mean": "1.03",
+                "Maximum": "1.80",
+                "2024": "1.30",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "0.40",
+                "Mean": "1.00",
+                "Maximum": "2.10",
+                "2024": "2.00",
+                "2025": "Not Sampled"
+            }
+        },
+        "sal": {
+            "January": {
+                "Minimum": "1.81",
+                "Mean": "8.70",
+                "Maximum": "16.56",
+                "2024": "11.90",
+                "2025": "15.10"
+            },
+            "February": {
+                "Minimum": "2.10",
+                "Mean": "8.44",
+                "Maximum": "13.19",
+                "2024": "7.50",
+                "2025": "14.60"
+            },
+            "March": {
+                "Minimum": "1.62",
+                "Mean": "7.25",
+                "Maximum": "13.99",
+                "2024": "1.80",
+                "2025": "7.10"
+            },
+            "April": {
+                "Minimum": "1.33",
+                "Mean": "5.22",
+                "Maximum": "8.28",
+                "2024": "3.20",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "1.43",
+                "Mean": "5.21",
+                "Maximum": "10.09",
+                "2024": "2.50",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "1.52",
+                "Mean": "5.58",
+                "Maximum": "9.59",
+                "2024": "5.40",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "2.71",
+                "Mean": "6.81",
+                "Maximum": "10.26",
+                "2024": "5.00",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "1.80",
+                "Mean": "7.71",
+                "Maximum": "12.63",
+                "2024": "5.50",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "1.71",
+                "Mean": "9.46",
+                "Maximum": "14.63",
+                "2024": "8.50",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "3.04",
+                "Mean": "10.49",
+                "Maximum": "15.61",
+                "2024": "9.50",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "1.85",
+                "Mean": "9.39",
+                "Maximum": "15.34",
+                "2024": "13.50",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "1.97",
+                "Mean": "8.68",
+                "Maximum": "14.50",
+                "2024": "10.60",
+                "2025": "Not Sampled"
+            }
+        },
+        "ph": {
+            "January": {
+                "Minimum": "7.30",
+                "Mean": "7.90",
+                "Maximum": "8.90",
+                "2024": "7.70",
+                "2025": "7.90"
+            },
+            "February": {
+                "Minimum": "7.50",
+                "Mean": "7.92",
+                "Maximum": "9.30",
+                "2024": "8.50",
+                "2025": "7.80"
+            },
+            "March": {
+                "Minimum": "7.40",
+                "Mean": "7.86",
+                "Maximum": "9.00",
+                "2024": "8.60",
+                "2025": "8.30"
+            },
+            "April": {
+                "Minimum": "6.60",
+                "Mean": "7.69",
+                "Maximum": "8.90",
+                "2024": "8.10",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "7.09",
+                "Mean": "8.10",
+                "Maximum": "9.20",
+                "2024": "8.40",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "7.40",
+                "Mean": "8.12",
+                "Maximum": "9.00",
+                "2024": "8.10",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "7.30",
+                "Mean": "8.18",
+                "Maximum": "8.90",
+                "2024": "8.20",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "7.58",
+                "Mean": "8.23",
+                "Maximum": "9.02",
+                "2024": "8.50",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "7.48",
+                "Mean": "8.01",
+                "Maximum": "8.70",
+                "2024": "8.60",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "7.55",
+                "Mean": "7.89",
+                "Maximum": "8.60",
+                "2024": "8.20",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "7.60",
+                "Mean": "8.05",
+                "Maximum": "9.00",
+                "2024": "7.70",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "7.40",
+                "Mean": "7.98",
+                "Maximum": "8.70",
+                "2024": "7.90",
+                "2025": "Not Sampled"
+            }
+        }
+    },
+    "CB32": {
+        "bdo": {
+            "January": {
+                "Minimum": "5.20",
+                "Mean": "9.13",
+                "Maximum": "11.90",
+                "2024": "8.70",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "7.20",
+                "Mean": "9.40",
+                "Maximum": "11.30",
+                "2024": "8.00",
+                "2025": "11.20"
+            },
+            "March": {
+                "Minimum": "4.50",
+                "Mean": "7.62",
+                "Maximum": "10.50",
+                "2024": "4.60",
+                "2025": "8.60"
+            },
+            "April": {
+                "Minimum": "1.40",
+                "Mean": "5.21",
+                "Maximum": "9.20",
+                "2024": "6.10",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.44",
+                "Mean": "2.24",
+                "Maximum": "4.90",
+                "2024": "3.70",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.20",
+                "Mean": "1.63",
+                "Maximum": "3.50",
+                "2024": "3.25",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.15",
+                "Mean": "1.71",
+                "Maximum": "5.15",
+                "2024": "5.30",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.05",
+                "Mean": "1.87",
+                "Maximum": "4.10",
+                "2024": "2.75",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.30",
+                "Mean": "3.26",
+                "Maximum": "7.70",
+                "2024": "4.60",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "1.10",
+                "Mean": "5.31",
+                "Maximum": "9.60",
+                "2024": "5.40",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "3.80",
+                "Mean": "7.56",
+                "Maximum": "10.80",
+                "2024": "8.70",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "5.60",
+                "Mean": "8.09",
+                "Maximum": "11.00",
+                "2024": "9.50",
+                "2025": "Not Sampled"
+            }
+        },
+        "wt": {
+            "January": {
+                "Minimum": "31.30",
+                "Mean": "36.90",
+                "Maximum": "43.50",
+                "2024": "37.00",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "31.30",
+                "Mean": "36.50",
+                "Maximum": "42.10",
+                "2024": "42.10",
+                "2025": "36.70"
+            },
+            "March": {
+                "Minimum": "36.30",
+                "Mean": "42.20",
+                "Maximum": "48.20",
+                "2024": "48.90",
+                "2025": "47.10"
+            },
+            "April": {
+                "Minimum": "46.00",
+                "Mean": "52.10",
+                "Maximum": "58.10",
+                "2024": "58.30",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "56.50",
+                "Mean": "62.70",
+                "Maximum": "72.30",
+                "2024": "64.40",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "66.40",
+                "Mean": "73.10",
+                "Maximum": "77.80",
+                "2024": "76.70",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "74.80",
+                "Mean": "79.40",
+                "Maximum": "82.40",
+                "2024": "82.70",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "75.60",
+                "Mean": "78.80",
+                "Maximum": "82.10",
+                "2024": "78.30",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "63.90",
+                "Mean": "73.20",
+                "Maximum": "78.10",
+                "2024": "72.70",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "55.80",
+                "Mean": "62.80",
+                "Maximum": "72.50",
+                "2024": "64.20",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "43.30",
+                "Mean": "51.80",
+                "Maximum": "58.80",
+                "2024": "56.30",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "34.90",
+                "Mean": "43.00",
+                "Maximum": "51.80",
+                "2024": "43.50",
+                "2025": "Not Sampled"
+            }
+        },
+        "sec": {
+            "January": {
+                "Minimum": "0.30",
+                "Mean": "0.95",
+                "Maximum": "2.00",
+                "2024": "0.70",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "0.10",
+                "Mean": "0.85",
+                "Maximum": "1.80",
+                "2024": "1.40",
+                "2025": "2.00"
+            },
+            "March": {
+                "Minimum": "0.10",
+                "Mean": "0.64",
+                "Maximum": "1.30",
+                "2024": "0.40",
+                "2025": "1.00"
+            },
+            "April": {
+                "Minimum": "0.20",
+                "Mean": "0.62",
+                "Maximum": "1.60",
+                "2024": "0.60",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.40",
+                "Mean": "0.82",
+                "Maximum": "1.60",
+                "2024": "0.50",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.40",
+                "Mean": "0.85",
+                "Maximum": "1.35",
+                "2024": "0.70",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.35",
+                "Mean": "0.88",
+                "Maximum": "1.60",
+                "2024": "0.75",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.40",
+                "Mean": "0.90",
+                "Maximum": "1.40",
+                "2024": "0.70",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.10",
+                "Mean": "1.08",
+                "Maximum": "1.80",
+                "2024": "1.60",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "0.20",
+                "Mean": "1.13",
+                "Maximum": "1.80",
+                "2024": "1.40",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "0.40",
+                "Mean": "1.06",
+                "Maximum": "2.60",
+                "2024": "1.20",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "0.20",
+                "Mean": "0.97",
+                "Maximum": "2.60",
+                "2024": "1.60",
+                "2025": "Not Sampled"
+            }
+        },
+        "sal": {
+            "January": {
+                "Minimum": "0.35",
+                "Mean": "6.74",
+                "Maximum": "13.93",
+                "2024": "6.40",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "0.46",
+                "Mean": "6.86",
+                "Maximum": "13.86",
+                "2024": "6.70",
+                "2025": "12.50"
+            },
+            "March": {
+                "Minimum": "0.24",
+                "Mean": "4.57",
+                "Maximum": "9.30",
+                "2024": "1.30",
+                "2025": "6.20"
+            },
+            "April": {
+                "Minimum": "0.00",
+                "Mean": "3.46",
+                "Maximum": "8.82",
+                "2024": "0.40",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.13",
+                "Mean": "4.10",
+                "Maximum": "8.44",
+                "2024": "2.20",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "1.10",
+                "Mean": "4.98",
+                "Maximum": "8.66",
+                "2024": "4.50",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.79",
+                "Mean": "6.19",
+                "Maximum": "11.18",
+                "2024": "6.90",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.60",
+                "Mean": "7.72",
+                "Maximum": "12.59",
+                "2024": "3.10",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.02",
+                "Mean": "9.45",
+                "Maximum": "15.54",
+                "2024": "10.60",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "0.75",
+                "Mean": "9.06",
+                "Maximum": "14.60",
+                "2024": "11.60",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "1.29",
+                "Mean": "8.36",
+                "Maximum": "13.93",
+                "2024": "13.50",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "0.84",
+                "Mean": "6.98",
+                "Maximum": "13.33",
+                "2024": "10.40",
+                "2025": "Not Sampled"
+            }
+        },
+        "ph": {
+            "January": {
+                "Minimum": "7.33",
+                "Mean": "7.80",
+                "Maximum": "8.60",
+                "2024": "7.90",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "7.39",
+                "Mean": "7.83",
+                "Maximum": "8.50",
+                "2024": "8.10",
+                "2025": "8.30"
+            },
+            "March": {
+                "Minimum": "7.45",
+                "Mean": "7.78",
+                "Maximum": "8.60",
+                "2024": "7.40",
+                "2025": "8.10"
+            },
+            "April": {
+                "Minimum": "7.07",
+                "Mean": "7.61",
+                "Maximum": "8.40",
+                "2024": "7.80",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "7.29",
+                "Mean": "7.78",
+                "Maximum": "9.40",
+                "2024": "7.60",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "7.30",
+                "Mean": "7.62",
+                "Maximum": "8.20",
+                "2024": "8.20",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "7.36",
+                "Mean": "7.75",
+                "Maximum": "8.25",
+                "2024": "7.95",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "7.35",
+                "Mean": "7.78",
+                "Maximum": "8.22",
+                "2024": "7.80",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "7.20",
+                "Mean": "7.67",
+                "Maximum": "8.40",
+                "2024": "7.50",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "7.40",
+                "Mean": "7.73",
+                "Maximum": "8.30",
+                "2024": "7.80",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "7.40",
+                "Mean": "7.82",
+                "Maximum": "8.40",
+                "2024": "7.90",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "6.58",
+                "Mean": "7.62",
+                "Maximum": "8.40",
+                "2024": "7.90",
+                "2025": "Not Sampled"
+            }
+        }
+    },
+    "WT41": {
+        "bdo": {
+            "January": {
+                "Minimum": "10.50",
+                "Mean": "13.28",
+                "Maximum": "17.30",
+                "2024": "9.50",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "9.00",
+                "Mean": "13.22",
+                "Maximum": "19.20",
+                "2024": "11.10",
+                "2025": "12.80"
+            },
+            "March": {
+                "Minimum": "9.70",
+                "Mean": "13.03",
+                "Maximum": "18.80",
+                "2024": "11.70",
+                "2025": "13.50"
+            },
+            "April": {
+                "Minimum": "7.20",
+                "Mean": "10.83",
+                "Maximum": "17.30",
+                "2024": "12.80",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "5.50",
+                "Mean": "10.31",
+                "Maximum": "13.60",
+                "2024": "8.90",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "2.30",
+                "Mean": "7.71",
+                "Maximum": "15.30",
+                "2024": "9.00",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "4.20",
+                "Mean": "7.58",
+                "Maximum": "13.40",
+                "2024": "7.70",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "5.10",
+                "Mean": "9.00",
+                "Maximum": "15.50",
+                "2024": "8.50",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "4.30",
+                "Mean": "8.97",
+                "Maximum": "15.10",
+                "2024": "7.10",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "7.60",
+                "Mean": "11.32",
+                "Maximum": "18.70",
+                "2024": "11.00",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "7.60",
+                "Mean": "11.56",
+                "Maximum": "15.00",
+                "2024": "10.60",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "8.30",
+                "Mean": "12.14",
+                "Maximum": "16.90",
+                "2024": "13.00",
+                "2025": "Not Sampled"
+            }
+        },
+        "wt": {
+            "January": {
+                "Minimum": "33.40",
+                "Mean": "39.40",
+                "Maximum": "45.90",
+                "2024": "45.10",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "33.80",
+                "Mean": "39.40",
+                "Maximum": "44.80",
+                "2024": "43.90",
+                "2025": "37.90"
+            },
+            "March": {
+                "Minimum": "39.60",
+                "Mean": "46.60",
+                "Maximum": "57.60",
+                "2024": "51.60",
+                "2025": "49.60"
+            },
+            "April": {
+                "Minimum": "45.90",
+                "Mean": "57.00",
+                "Maximum": "68.00",
+                "2024": "64.00",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "59.90",
+                "Mean": "67.20",
+                "Maximum": "78.10",
+                "2024": "66.90",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "70.20",
+                "Mean": "76.90",
+                "Maximum": "84.40",
+                "2024": "78.60",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "77.70",
+                "Mean": "82.20",
+                "Maximum": "87.60",
+                "2024": "85.50",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "71.20",
+                "Mean": "80.70",
+                "Maximum": "87.40",
+                "2024": "80.80",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "60.10",
+                "Mean": "72.60",
+                "Maximum": "79.90",
+                "2024": "77.20",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "48.60",
+                "Mean": "60.40",
+                "Maximum": "74.10",
+                "2024": "69.30",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "36.10",
+                "Mean": "49.40",
+                "Maximum": "60.60",
+                "2024": "54.30",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "34.20",
+                "Mean": "42.30",
+                "Maximum": "51.60",
+                "2024": "41.40",
+                "2025": "Not Sampled"
+            }
+        },
+        "sec": {
+            "January": {
+                "Minimum": "0.10",
+                "Mean": "0.51",
+                "Maximum": "1.00",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "0.10",
+                "Mean": "0.40",
+                "Maximum": "0.90",
+                "2024": "0.30",
+                "2025": "1.10"
+            },
+            "March": {
+                "Minimum": "0.10",
+                "Mean": "0.34",
+                "Maximum": "0.60",
+                "2024": "0.60",
+                "2025": "0.50"
+            },
+            "April": {
+                "Minimum": "0.10",
+                "Mean": "0.29",
+                "Maximum": "0.50",
+                "2024": "0.40",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.20",
+                "Mean": "0.29",
+                "Maximum": "0.40",
+                "2024": "0.40",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.10",
+                "Mean": "0.28",
+                "Maximum": "0.80",
+                "2024": "0.40",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.10",
+                "Mean": "0.29",
+                "Maximum": "0.40",
+                "2024": "0.30",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.20",
+                "Mean": "0.31",
+                "Maximum": "0.60",
+                "2024": "0.30",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.20",
+                "Mean": "0.34",
+                "Maximum": "1.20",
+                "2024": "0.30",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "0.20",
+                "Mean": "0.37",
+                "Maximum": "0.60",
+                "2024": "0.40",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "0.20",
+                "Mean": "0.45",
+                "Maximum": "1.00",
+                "2024": "0.70",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "0.10",
+                "Mean": "0.46",
+                "Maximum": "1.00",
+                "2024": "1.30",
+                "2025": "Not Sampled"
+            }
+        },
+        "sal": {
+            "January": {
+                "Minimum": "0.01",
+                "Mean": "2.35",
+                "Maximum": "6.02",
+                "2024": "0.60",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "0.18",
+                "Mean": "2.46",
+                "Maximum": "6.25",
+                "2024": "1.30",
+                "2025": "5.00"
+            },
+            "March": {
+                "Minimum": "0.00",
+                "Mean": "1.94",
+                "Maximum": "5.16",
+                "2024": "1.70",
+                "2025": "5.20"
+            },
+            "April": {
+                "Minimum": "0.03",
+                "Mean": "1.30",
+                "Maximum": "3.14",
+                "2024": "0.40",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.00",
+                "Mean": "1.05",
+                "Maximum": "2.88",
+                "2024": "0.50",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.00",
+                "Mean": "1.24",
+                "Maximum": "3.17",
+                "2024": "1.10",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.00",
+                "Mean": "1.65",
+                "Maximum": "3.84",
+                "2024": "1.50",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.00",
+                "Mean": "2.00",
+                "Maximum": "5.94",
+                "2024": "1.70",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.00",
+                "Mean": "3.51",
+                "Maximum": "8.12",
+                "2024": "2.50",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "0.20",
+                "Mean": "3.82",
+                "Maximum": "7.24",
+                "2024": "2.80",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "0.07",
+                "Mean": "3.59",
+                "Maximum": "7.05",
+                "2024": "6.40",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "0.00",
+                "Mean": "3.05",
+                "Maximum": "7.24",
+                "2024": "5.20",
+                "2025": "Not Sampled"
+            }
+        },
+        "ph": {
+            "January": {
+                "Minimum": "6.70",
+                "Mean": "7.67",
+                "Maximum": "8.90",
+                "2024": "7.80",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "7.10",
+                "Mean": "7.76",
+                "Maximum": "9.40",
+                "2024": "7.80",
+                "2025": "8.50"
+            },
+            "March": {
+                "Minimum": "6.90",
+                "Mean": "7.89",
+                "Maximum": "9.50",
+                "2024": "8.40",
+                "2025": "8.80"
+            },
+            "April": {
+                "Minimum": "7.20",
+                "Mean": "8.04",
+                "Maximum": "9.50",
+                "2024": "8.90",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "7.00",
+                "Mean": "8.16",
+                "Maximum": "9.70",
+                "2024": "7.90",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "6.20",
+                "Mean": "7.58",
+                "Maximum": "9.60",
+                "2024": "8.60",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "7.30",
+                "Mean": "8.08",
+                "Maximum": "9.60",
+                "2024": "8.60",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "7.30",
+                "Mean": "8.32",
+                "Maximum": "9.80",
+                "2024": "8.90",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "7.20",
+                "Mean": "8.15",
+                "Maximum": "9.60",
+                "2024": "8.80",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "7.00",
+                "Mean": "8.05",
+                "Maximum": "9.50",
+                "2024": "8.90",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "7.10",
+                "Mean": "7.95",
+                "Maximum": "9.20",
+                "2024": "8.20",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "7.10",
+                "Mean": "7.71",
+                "Maximum": "10.70",
+                "2024": "8.10",
+                "2025": "Not Sampled"
+            }
+        }
+    },
+    "CB31": {
+        "bdo": {
+            "January": {
+                "Minimum": "6.90",
+                "Mean": "9.70",
+                "Maximum": "13.60",
+                "2024": "9.50",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "7.80",
+                "Mean": "9.84",
+                "Maximum": "11.52",
+                "2024": "7.60",
+                "2025": "12.00"
+            },
+            "March": {
+                "Minimum": "3.80",
+                "Mean": "7.80",
+                "Maximum": "10.40",
+                "2024": "5.00",
+                "2025": "8.50"
+            },
+            "April": {
+                "Minimum": "1.50",
+                "Mean": "5.96",
+                "Maximum": "10.00",
+                "2024": "7.50",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.74",
+                "Mean": "3.57",
+                "Maximum": "6.40",
+                "2024": "4.90",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.50",
+                "Mean": "2.62",
+                "Maximum": "6.10",
+                "2024": "4.30",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.34",
+                "Mean": "2.71",
+                "Maximum": "5.55",
+                "2024": "4.65",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.70",
+                "Mean": "2.84",
+                "Maximum": "4.90",
+                "2024": "3.05",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "1.90",
+                "Mean": "4.30",
+                "Maximum": "9.90",
+                "2024": "4.70",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "2.00",
+                "Mean": "5.94",
+                "Maximum": "8.60",
+                "2024": "8.00",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "4.60",
+                "Mean": "8.27",
+                "Maximum": "12.70",
+                "2024": "8.60",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "6.10",
+                "Mean": "8.72",
+                "Maximum": "11.20",
+                "2024": "8.80",
+                "2025": "Not Sampled"
+            }
+        },
+        "wt": {
+            "January": {
+                "Minimum": "32.00",
+                "Mean": "37.00",
+                "Maximum": "42.60",
+                "2024": "36.30",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "31.30",
+                "Mean": "36.30",
+                "Maximum": "41.50",
+                "2024": "41.90",
+                "2025": "36.10"
+            },
+            "March": {
+                "Minimum": "36.70",
+                "Mean": "42.40",
+                "Maximum": "48.40",
+                "2024": "49.10",
+                "2025": "46.60"
+            },
+            "April": {
+                "Minimum": "46.40",
+                "Mean": "52.50",
+                "Maximum": "59.00",
+                "2024": "59.40",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "55.90",
+                "Mean": "63.00",
+                "Maximum": "72.30",
+                "2024": "65.70",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "66.90",
+                "Mean": "73.80",
+                "Maximum": "78.40",
+                "2024": "77.10",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "75.30",
+                "Mean": "79.90",
+                "Maximum": "82.90",
+                "2024": "83.20",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "75.10",
+                "Mean": "79.10",
+                "Maximum": "82.50",
+                "2024": "78.30",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "63.50",
+                "Mean": "73.20",
+                "Maximum": "78.80",
+                "2024": "72.50",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "55.80",
+                "Mean": "62.50",
+                "Maximum": "71.40",
+                "2024": "64.20",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "38.50",
+                "Mean": "51.10",
+                "Maximum": "58.10",
+                "2024": "55.90",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "33.60",
+                "Mean": "42.20",
+                "Maximum": "51.60",
+                "2024": "43.30",
+                "2025": "Not Sampled"
+            }
+        },
+        "sec": {
+            "January": {
+                "Minimum": "0.30",
+                "Mean": "0.71",
+                "Maximum": "1.30",
+                "2024": "0.60",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "0.10",
+                "Mean": "0.67",
+                "Maximum": "1.60",
+                "2024": "0.40",
+                "2025": "1.30"
+            },
+            "March": {
+                "Minimum": "0.10",
+                "Mean": "0.49",
+                "Maximum": "0.80",
+                "2024": "0.30",
+                "2025": "0.50"
+            },
+            "April": {
+                "Minimum": "0.20",
+                "Mean": "0.52",
+                "Maximum": "1.30",
+                "2024": "0.60",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.30",
+                "Mean": "0.67",
+                "Maximum": "1.10",
+                "2024": "0.40",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.40",
+                "Mean": "0.68",
+                "Maximum": "1.10",
+                "2024": "0.55",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.30",
+                "Mean": "0.72",
+                "Maximum": "1.15",
+                "2024": "0.40",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.35",
+                "Mean": "0.78",
+                "Maximum": "1.15",
+                "2024": "0.65",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.10",
+                "Mean": "0.92",
+                "Maximum": "1.60",
+                "2024": "1.10",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "0.25",
+                "Mean": "1.00",
+                "Maximum": "1.80",
+                "2024": "1.00",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "0.20",
+                "Mean": "0.85",
+                "Maximum": "2.20",
+                "2024": "1.20",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "0.20",
+                "Mean": "0.77",
+                "Maximum": "2.50",
+                "2024": "1.50",
+                "2025": "Not Sampled"
+            }
+        },
+        "sal": {
+            "January": {
+                "Minimum": "0.02",
+                "Mean": "3.92",
+                "Maximum": "9.14",
+                "2024": "4.10",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "0.00",
+                "Mean": "3.73",
+                "Maximum": "8.31",
+                "2024": "4.60",
+                "2025": "8.70"
+            },
+            "March": {
+                "Minimum": "0.00",
+                "Mean": "2.62",
+                "Maximum": "7.90",
+                "2024": "0.50",
+                "2025": "5.50"
+            },
+            "April": {
+                "Minimum": "0.00",
+                "Mean": "1.75",
+                "Maximum": "5.88",
+                "2024": "0.10",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "0.00",
+                "Mean": "2.34",
+                "Maximum": "6.96",
+                "2024": "0.80",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "0.15",
+                "Mean": "3.01",
+                "Maximum": "5.88",
+                "2024": "2.60",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "0.00",
+                "Mean": "4.14",
+                "Maximum": "8.70",
+                "2024": "3.70",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "0.35",
+                "Mean": "5.67",
+                "Maximum": "10.63",
+                "2024": "1.50",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "0.00",
+                "Mean": "7.29",
+                "Maximum": "13.19",
+                "2024": "9.60",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "0.03",
+                "Mean": "6.83",
+                "Maximum": "12.00",
+                "2024": "10.90",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "0.02",
+                "Mean": "5.57",
+                "Maximum": "10.30",
+                "2024": "11.60",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "0.00",
+                "Mean": "4.09",
+                "Maximum": "9.91",
+                "2024": "6.60",
+                "2025": "Not Sampled"
+            }
+        },
+        "ph": {
+            "January": {
+                "Minimum": "7.56",
+                "Mean": "7.79",
+                "Maximum": "8.20",
+                "2024": "7.70",
+                "2025": "Not Sampled"
+            },
+            "February": {
+                "Minimum": "7.40",
+                "Mean": "7.84",
+                "Maximum": "8.50",
+                "2024": "8.20",
+                "2025": "8.40"
+            },
+            "March": {
+                "Minimum": "7.30",
+                "Mean": "7.77",
+                "Maximum": "8.20",
+                "2024": "7.40",
+                "2025": "7.70"
+            },
+            "April": {
+                "Minimum": "7.05",
+                "Mean": "7.57",
+                "Maximum": "8.00",
+                "2024": "7.80",
+                "2025": "Not Sampled"
+            },
+            "May": {
+                "Minimum": "7.18",
+                "Mean": "7.58",
+                "Maximum": "8.70",
+                "2024": "7.70",
+                "2025": "Not Sampled"
+            },
+            "June": {
+                "Minimum": "7.02",
+                "Mean": "7.42",
+                "Maximum": "7.98",
+                "2024": "7.75",
+                "2025": "Not Sampled"
+            },
+            "July": {
+                "Minimum": "7.10",
+                "Mean": "7.49",
+                "Maximum": "7.89",
+                "2024": "7.65",
+                "2025": "Not Sampled"
+            },
+            "August": {
+                "Minimum": "7.12",
+                "Mean": "7.52",
+                "Maximum": "7.99",
+                "2024": "7.55",
+                "2025": "Not Sampled"
+            },
+            "September": {
+                "Minimum": "7.18",
+                "Mean": "7.52",
+                "Maximum": "8.10",
+                "2024": "7.40",
+                "2025": "Not Sampled"
+            },
+            "October": {
+                "Minimum": "7.30",
+                "Mean": "7.63",
+                "Maximum": "7.90",
+                "2024": "7.70",
+                "2025": "Not Sampled"
+            },
+            "November": {
+                "Minimum": "7.40",
+                "Mean": "7.73",
+                "Maximum": "8.10",
+                "2024": "7.80",
+                "2025": "Not Sampled"
+            },
+            "December": {
+                "Minimum": "7.30",
+                "Mean": "7.70",
+                "Maximum": "8.40",
+                "2024": "7.90",
+                "2025": "Not Sampled"
+            }
+        }
+    }
+}

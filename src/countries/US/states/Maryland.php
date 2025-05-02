@@ -1,10 +1,18 @@
-<?php 
+<?php
 $state = "Maryland";
 ob_start();
-include "../state_data/Maryland_data.php";
-$data = ob_get_clean();
+require "../state_data/Maryland_data.php";
+$bayData = ob_get_clean();
+if ($bayData === null) {
+    error_log("Failed to load bay_data.json or run python script");
+    $bayData = "{}";
+}
 ob_start();
-include "../states_html/information_cards/Maryland_cards.html";
+require "../states_html/information_cards/Maryland_cards.html";
 $cards = ob_get_clean();
 ?>
-<?php include "../../../includes/states.php" ?>
+
+<script>
+    window.bayData = <?php echo $bayData ?: '{}'; ?>;
+</script>
+<?php require "../../../includes/states.php" ?>

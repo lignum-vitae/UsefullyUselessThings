@@ -8,10 +8,10 @@ def main():
     chesapeake_stations = ["BLTM2", "CHCM2", "TCBM2", "FSKM2", "CPVM2", "APAM2",
                            "44063", "TPLM2", "BSLM2", "CAMM2", "44062", "COVM2",
                            "SLIM2", "BISM2", "PPTM2", "44042"]
-    real_time_data: str = process_noaa_rt_stations(chesapeake_stations, 5) #json formatted string
-    print(real_time_data)
+    #real_time_data: str = process_noaa_rt_stations(chesapeake_stations, 5) #json formatted string
+    #print(real_time_data)
     eotb_station_loc, eotb_stations = get_eotb_stations()
-    monthly_data: str = eotb_stations_to_json(['CB10','CB11']) #json formatted string
+    monthly_data: str = eotb_stations_to_json(['CB10', 'CB11', 'WT51', 'CB32', 'WT41', 'CB31']) #json formatted string
     print(monthly_data)
 
 def process_noaa_rt_stations(stations: list[str], NumberOfPoints: int) -> str:
@@ -24,7 +24,7 @@ def process_noaa_rt_stations(stations: list[str], NumberOfPoints: int) -> str:
         data = requests.get(f'https://www.ndbc.noaa.gov/data/realtime2/{station}.txt')
         lines = noaa_data_to_json(data.text, NumberOfPoints, data_cols)
         json_formatted_data.setdefault(station, []).extend(lines[2:])
-    json_output: str = json.dumps(json_formatted_data)
+    json_output: str = json.dumps(json_formatted_data, indent=4)
     return json_output
 
 #~240 readings per day
@@ -66,7 +66,7 @@ def eotb_stations_to_json(stations: list[str]) -> str:
             #range explained: 9 = first data position. 80 = offset to start of data(8)+number of months(12)*len(titles)(6)
             temp = {raw_data[i-1]:{data_titles[x]:raw_data[i+x] for x in range(len(data_titles))} for i in range(9,80,6)}
             jsondata[station].setdefault(parameter, {}).update(temp)
-    json_output = json.dumps(jsondata)
+    json_output = json.dumps(jsondata, indent=4)
     return json_output
 
 if __name__ == "__main__":
