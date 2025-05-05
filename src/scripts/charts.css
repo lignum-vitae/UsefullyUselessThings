@@ -1,0 +1,55 @@
+/*
+Original implementation by @Waaaaghh (https://github.com/Waaaaghh)
+Adapted/Modified by @dawnandrew100 (https://github.com/dawnandrew100)
+*/
+
+.charts-container {
+    display: inline-block;
+}
+
+.charts {
+    margin: 60px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    column-gap: 30px;
+    row-gap: 40px;
+}
+
+.chart-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    padding: 12px;
+}
+
+.chart-card:hover {
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.chart-description {
+    grid-column: 1 / span 3;
+}
+
+.selected-chart {
+    grid-column: 1 / span 3;
+    overflow: hidden;
+}
+
+.chart-container {
+    display: flex;
+    align-items: center;
+}
+
+.chart-name {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.chart-grade-container {
+    display: flex;
+}
+
+.chart-grade-container > div {
+    flex-grow: 1;
+}

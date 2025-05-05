@@ -286,7 +286,21 @@
 
     <!-- Bay Weather Chart - Now after the map -->
     <h2 style="text-align:center;">Chesapeake Bay Weather Data</h2>
-    <div id="charts"></div>
+    <div class="chart-container">
+        <div id="charts" class="charts">
+            <div class="chart-description chart-card">
+                <div class="chart-grade-container">
+                    <div>Overall: <b>B-</b></div>
+                    <div><span id="param"></span>: <b id="grade"></b></div>
+                </div>
+            </div>
+            <div class="selected-chart chart-card">
+                <h3 id="selected-char-name"></h3>
+                <canvas id="selected-chart"></canvas>
+            </div>
+        </div>
+    </div>
+
     <script src="../../../scripts/data/charts/bayChart.js"></script>
 
 

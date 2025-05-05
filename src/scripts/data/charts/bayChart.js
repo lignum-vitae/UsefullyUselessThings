@@ -2,6 +2,8 @@
 Original implementation by @Waaaaghh (https://github.com/Waaaaghh)
 Adapted/Modified by @dawnandrew100 (https://github.com/dawnandrew100)
 */
+let selectedChart = null;
+
 const titles = {
 bdo: "Bottom dissolved oxygen (mg/L)",
 wt: "Water temperature (°F)",
@@ -16,63 +18,68 @@ const stations = Object.keys(data);
 const params = Object.keys(data[stations[0]]);
 const months = Object.keys(data[stations[0]][params[0]]);
 
-function createChartContainer(param) {
-const container = document.createElement("div");
-container.className = "chart-container";
+function createChartContainer(param, columns) {
+    const container = document.createElement("div");
+    container.className = "charts-container chart-card";
 
-const canvas = document.createElement("canvas");
-canvas.id = param;
+    container.addEventListener("click", () => {
+        renderSelectedChart(param, columns);
+    });
 
-const title = document.createElement("h3");
-title.innerText = titles[param];
+    const canvas = document.createElement("canvas");
+    canvas.id = param;
 
-container.append(title);
-container.appendChild(canvas);
-document.getElementById("charts").appendChild(container);
+    const title = document.createElement("h3");
+    title.innerText = titles[param];
+
+    container.appendChild(title);
+    container.appendChild(canvas);
+    document.getElementById("charts").appendChild(container);
 }
 
-function renderChart(param) {
-createChartContainer(param);
+function renderChartCard(param, columns) {
+    createChartContainer(param, columns);
+    renderChart(param, columns);
+}
 
-const columns = ["Minimum", "Maximum", "Mean"].map((column) => {
-    return months.map((month) => {
-    const stationValues = stations
-        .map((station) => data[station][param][month][column])
-        .filter((val) => val !== "Not Sampled")
-        .map((val) => Number(val));
-
-    if (stationValues.length > 0) {
-        const avg =
-        stationValues.reduce((a, b) => a + b, 0) / stationValues.length;
-        return avg;
+function renderSelectedChart(param, columns) {
+    if (!selectedChart) {
+        selectedChart = renderChart("selected-chart", columns);
     } else {
-        return 0; // probably should filter it out
+        selectedChart.data.datasets.forEach((dataset, index) => {
+            dataset.data = columns[index];
+        });
+        selectedChart.update();
     }
-    });
-});
 
-new Chart(document.getElementById(param), {
-    type: "line",
-    data: {
-    labels: months,
-    datasets: [
-        {
-        label: "Minimum",
-        data: columns[0],
-        borderWidth: 1,
-        fill: "+1",
-        },
-        {
-        label: "Maximum",
-        data: columns[1],
-        borderWidth: 1,
-        },
-        {
-        label: "Mean",
-        data: columns[2],
-        borderWidth: 1,
-        },
-    ],
+    document.getElementById("selected-char-name").innerText = titles[param];
+    document.getElementById("param").innerText = titles[param];
+    document.getElementById("grade").innerText = "B+";
+}
+
+function renderChart(id, columns) {
+    return new Chart(document.getElementById(id), {
+        type: "line",
+        data: {
+        labels: months,
+        datasets: [
+            {
+                label: "Minimum",
+                data: columns[0],
+                borderWidth: 1,
+                fill: "+1",
+            },
+            {
+                label: "Maximum",
+                data: columns[1],
+                borderWidth: 1,
+            },
+            {
+                label: "Mean",
+                data: columns[2],
+                borderWidth: 1,
+            },
+        ],
     },
     // options: {
     //   scales: {
@@ -81,9 +88,33 @@ new Chart(document.getElementById(param), {
     //     },
     //   },
     // },
-});
+    });
 }
 
+const columnsMap = params.reduce((acc, param) => {
+    const columns = ["Minimum", "Maximum", "Mean"].map((column) => {
+        return months.map((month) => {
+            const stationValues = stations
+                .map((station) => data[station][param][month][column])
+                .filter((val) => val !== "Not Sampled")
+                .map((val) => Number(val));
+
+            if (stationValues.length > 0) {
+                const avg =
+                    stationValues.reduce((a, b) => a + b, 0) / stationValues.length;
+                return avg;
+            } else {
+                return 0; // probably should filter it out
+            }
+        });
+    });
+
+    acc[param] = columns;
+    return acc;
+}, {});
+
 params.forEach((param) => {
-renderChart(param);
+    renderChartCard(param, columnsMap[param]);
 });
+
+renderSelectedChart(params[0], columnsMap[params[0]]);
