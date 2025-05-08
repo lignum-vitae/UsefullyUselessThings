@@ -13,6 +13,9 @@ ph: "pH",
 };
 
 const data = window.bayData
+if (!data) {
+    console.log("Invalid data received from Bay_data.py");
+}
 console.log("Maryland Chesapeake Bay Data loaded:", data)
 const stations = Object.keys(data);
 const params = Object.keys(data[stations[0]]);

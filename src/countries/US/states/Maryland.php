@@ -1,7 +1,7 @@
 <?php
 $state = "Maryland";
 ob_start();
-require "../state_data/Maryland_data.php";
+require "../state_data/Maryland_data/Maryland_data.php";
 $bayData = ob_get_clean();
 if ($bayData === null) {
     error_log("Failed to load bay_data.json or run python script");
