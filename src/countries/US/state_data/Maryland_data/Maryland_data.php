@@ -6,7 +6,7 @@ function getBayData()
     $cacheDir = __DIR__ . '/cache';
     $cacheFile = $cacheDir . '/bay_data.json';
     $logFile = $cacheDir . '/bay_data.log';
-    $pyScriptFile = '../state_data/Maryland_data/Bay_Data.py';
+    $pyScriptFile = '../state_data/Maryland_data/eotb_Bay_Data.py';
 
     // Ensure cache directory exists
     if (!file_exists($cacheDir)) {
