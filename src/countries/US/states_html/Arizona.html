@@ -1,233 +1,91 @@
-<!DOCTYPE html>
-<html class="colour-scheme adaptive">
-
-<head>
-    <link rel="stylesheet" href="../scripts/index.css">
-    <link rel="stylesheet" href="../scripts/navbar.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela Round">
-
-    <title>Wonderfully Useless Welcome Page</title>
-
-    <script src="scripts/htmx/htmx.min.js"></script>
-</head>
-
-<body>
-    <div id="header" class="center">
-        <h1>Usefully Useless Things</h1>
-        <img style="width:16vw" , alt="Flag of Arizona" ,
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arizona.svg">
+<div class="body">
+    <div style="padding-left:16px">
+        <h1>Purpose</h1>
+        <p>The purpose of this website is twofold. The primary goal is to practice my data illustration skills and
+            build my toolkit as a data scientist, but also to have a collection of graphs, or charts, or anything
+            that may be useful to someone; even if it may not be useful to me.</p>
     </div>
 
-    <iframe id="navbar" scrolling="no" src="navbar.html"></iframe>
+    <link rel="stylesheet" href="../scripts/map.css">
 
-    <div class="body">
-        <div style="padding-left:16px">
-            <h1>Purpose</h1>
-            <p>The purpose of this website is twofold. The primary goal is to practice my data illustration skills and
-                build my toolkit as a data scientist, but also to have a collection of graphs, or charts, or anything
-                that may be useful to someone; even if it may not be useful to me.</p>
-        </div>
-
-        <link rel="stylesheet" href="../scripts/map.css">
-
-        <svg id="map" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg" version="1.2"
-            viewBox="0 0 810 810" stroke-linecap="round" stroke-linejoin="round">
-            <g id="states" transform="translate(5,5)" stroke="white" stroke-width="2">
-                <a>
-                    <path
-                        d="M 329.74 5.42 329.3 7.35 330.74 12.18 328.97 14.09 328.53 17.77 326.09 20.12 324.4 26.85 323.51 27.77 322.67 32.33 320.39 35.88 321.19 42.32 318.16 51.09 319.9 57.73 320.07 62.05 318.65 65.67 316.33 67.35 315.7 71.39 319.71 79.03 317.19 81.45 317.25 84.68 319.51 88.09 318.89 90.67 316.66 92.31 316.42 94.23 312.93 97.62 310.99 95.69 308.13 96.98 308.49 100.23 305.51 99.95 303.81 101.97 301.01 103.08 300.29 105.45 298.01 104.93 294.19 106.51 292.05 105.74 287.71 109.71 285.16 109.32 284.43 110.97 278.79 112.69 275.95 111.68 272.54 113.12 270.63 115.74 265.76 117.9 260.98 121.64 258.99 120.48 254.18 123.44 253.55 128.18 250.86 132.05 247.19 132.38 244.69 131.1 240.81 130.67 238.77 135.08 236.05 138.96 238.16 147.52 240.11 150.09 237.99 156.71 240.65 159.64 240.68 163.85 238.75 166.98 237.87 172.56 237.29 210.74 237.36 214.69 235.72 329.92 235.34 346.16 235.32 357.75 234.98 380.25 232.8 382.8 230.61 383.82 227.03 382.69 218.37 381.76 211.01 381.5 209.3 384.38 205.79 388.22 203.86 391.62 200.72 392.16 196.3 394.48 191.59 394.69 189.48 392.81 188.6 390.39 183.51 391.87 181.16 390.75 176.06 392.46 174.55 388.59 172.31 388.02 169.42 388.84 165.54 388.69 161.58 387.38 156.63 387.89 153.67 387 149.36 382.59 146.01 381.1 144.12 381.79 141.37 380.63 139.21 378.54 137.02 374.08 134.43 372.33 131.35 371.63 127.03 366.56 124.43 365.94 122.85 362.89 118.1 359.33 114.48 359.87 113.01 358.3 114.17 351.41 113.93 348.26 111.24 342.6 107.73 338.7 109.19 336.82 107.54 335.24 106.27 329.12 103.82 322.18 98.94 318.86 94.87 314.53 92.86 310.63 91.18 304.79 86.23 300.35 85.6 297.62 86.36 294.62 86.63 289.36 86.09 287.37 86.85 282.78 86.13 277.64 89.73 273.45 90.01 271.23 85.28 267.31 87 265.22 93.27 263.75 94.4 259.08 94.24 253.71 93.37 252.42 92.75 245.01 91.69 240.13 92.06 236.31 88.76 224.25 85.86 221.2 83.15 211.6 83.38 209.63 85.75 206.97 85.18 202.34 86.48 195.98 82.57 190.33 83.44 184.99 80.93 181.67 81.95 178.62 81.99 170.7 80.54 168.41 82.57 164.81 81.35 162.43 86.39 159.11 82.28 155.06 81 150.8 77.98 144.57 78.14 139.29 80.21 137.42 78.05 134.77 78.85 133.7 76.81 129.25 79.01 126.55 85.11 126.06 91.18 121.59 93.39 123.15 97.96 120.53 105.12 120.92 106.08 124.19 109.56 122.56 112.35 124.49 115.66 121.84 120.77 122.32 121.99 124.43 125.35 127.64 127.75 130.93 127.07 133.21 129.47 135.45 131.73 136.21 132.74 139.04 135.88 140.89 142.78 139.1 145.26 139.66 147.21 136.8 147.69 133.74 149.98 129.58 149.46 126.9 151.76 126.12 155.21 118.22 158.01 116.09 158.09 104.89 158.67 90.02 158.84 73.67 158.93 46.65 159.28 25.03 159.77 3 174.9 3.38 207.7 4.01 247.01 4.63 281.64 5.06 329.74 5.42 Z"
-                        id="Mohave"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 329.74 5.42 405.41 5.56 457.1 5.38 471.4 5.43 487.65 5.27 495.21 4.98 530.7 4.49 533.41 229.79 535.26 388.27 533.59 384.21 529.93 383.32 526.61 383.87 523.92 387.85 520.5 386.68 518.19 382.97 513.08 381.9 509.77 379.99 508.97 378.24 506.47 377.25 504.82 375.04 502.3 377.73 500.34 376.88 501.5 373.2 497.25 372.08 495.93 370.21 492.36 371.91 489.83 371.67 487.39 369.04 482.08 368.23 476.54 362.33 469.94 365.78 464.95 366.28 462.9 364.18 459.7 366.63 458.82 372.99 456.77 370.52 456.48 363.04 452.64 366.26 451.82 367.8 447.03 366.7 445.12 368.2 442.3 367.02 449.94 362.29 446.96 362.16 444.68 359.96 441.64 359.79 441.86 336.73 441.77 313.46 417.88 313.3 415.64 313.42 415.68 288.53 412.06 289.19 389.95 289.17 387.51 289.51 351.46 289.56 351.42 265.02 339.16 264.82 339.23 249.42 335.72 252.34 332.64 251.7 327.79 252.54 323.7 251.54 320.93 248.16 318.77 247.11 318.95 244.88 316.48 243.47 314.2 244.64 312.04 242.4 309.49 241.9 305.65 242.77 299.92 241.22 298.56 240.2 287.94 237.21 280.67 235.83 279.72 232.46 278.01 230.22 265.76 221.8 258.57 217.92 255.52 214 250.48 213.6 244.96 210.46 237.29 210.74 237.87 172.56 238.75 166.98 240.68 163.85 240.65 159.64 237.99 156.71 240.11 150.09 238.16 147.52 236.05 138.96 238.77 135.08 240.81 130.67 244.69 131.1 247.19 132.38 250.86 132.05 253.55 128.18 254.18 123.44 258.99 120.48 260.98 121.64 265.76 117.9 270.63 115.74 272.54 113.12 275.95 111.68 278.79 112.69 284.43 110.97 285.16 109.32 287.71 109.71 292.05 105.74 294.19 106.51 298.01 104.93 300.29 105.45 301.01 103.08 303.81 101.97 305.51 99.95 308.49 100.23 308.13 96.98 310.99 95.69 312.93 97.62 316.42 94.23 316.66 92.31 318.89 90.67 319.51 88.09 317.25 84.68 317.19 81.45 319.71 79.03 315.7 71.39 316.33 67.35 318.65 65.67 320.07 62.05 319.9 57.73 318.16 51.09 321.19 42.32 320.39 35.88 322.67 32.33 323.51 27.77 324.4 26.85 326.09 20.12 328.53 17.77 328.97 14.09 330.74 12.18 329.3 7.35 329.74 5.42 Z"
-                        id="Coconino"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 441.64 359.79 444.68 359.96 446.96 362.16 449.94 362.29 442.3 367.02 445.12 368.2 447.03 366.7 451.82 367.8 452.64 366.26 456.48 363.04 456.77 370.52 458.82 372.99 459.7 366.63 462.9 364.18 464.95 366.28 469.94 365.78 476.54 362.33 482.08 368.23 487.39 369.04 489.83 371.67 492.36 371.91 495.93 370.21 497.25 372.08 501.5 373.2 500.34 376.88 502.3 377.73 504.82 375.04 506.47 377.25 508.97 378.24 509.77 379.99 513.08 381.9 518.19 382.97 520.5 386.68 523.92 387.85 526.61 383.87 529.93 383.32 533.59 384.21 535.26 388.27 535.68 425.14 593.8 424.33 623.19 423.82 624.29 483.08 624.58 498.62 604.73 499.05 604.83 500.97 602.05 501.39 599.44 503.25 597.76 502.14 595.67 503.25 592.74 502.51 590.41 504.28 587.97 503.79 584.68 504.75 582.18 508.81 578.39 508 576.29 508.43 575.65 510.58 572.98 511.27 572.02 520.43 571.31 523.39 574.01 531.21 577.24 537.76 572.47 537.48 570.81 539.07 565.93 538.73 558.43 544.63 555.57 546.19 553.79 545.03 550.73 545.07 548.14 549.14 545.66 549.48 545.06 552.74 542.5 553.38 540.09 555.39 541.16 557.73 539.73 561.32 535.7 564.49 535.59 567.08 533.43 567.34 513.79 530.39 510.39 517.58 502.56 500.25 489.06 470.8 485.86 473.25 482.51 476.95 482.75 478.76 480.8 481.22 479.15 479.12 476.89 478.74 470.07 470.3 468.17 469.35 467.53 464.86 464.86 462.01 461.64 460.76 461.31 457.03 462.43 454.35 460.56 448.04 461.41 444.88 458.56 441.91 459.37 437.05 456.97 436.13 454.03 437.01 454.43 433.95 453.77 431.09 456.07 427.97 455.22 426.29 452.21 424.99 448.84 425.82 449.12 420.51 451.57 419.9 452.44 415.66 449.9 412.49 450.55 409.15 449.99 404.67 423.48 404.74 422.54 403.53 425.97 397.19 424.28 396.16 425.25 390.83 426.99 389.26 426.7 386.29 428.81 385.9 428.34 382.9 429.19 380.42 428.83 376.44 429.49 371.79 435.01 369.14 436.29 367.15 439.11 366.96 441.67 364.32 441.64 359.79 Z"
-                        id="Gila"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 237.29 210.74 244.96 210.46 250.48 213.6 255.52 214 258.57 217.92 265.76 221.8 278.01 230.22 279.72 232.46 280.67 235.83 287.94 237.21 298.56 240.2 299.92 241.22 305.65 242.77 309.49 241.9 312.04 242.4 314.2 244.64 316.48 243.47 318.95 244.88 318.77 247.11 320.93 248.16 323.7 251.54 327.79 252.54 332.64 251.7 335.72 252.34 339.23 249.42 339.16 264.82 351.42 265.02 351.46 289.56 387.51 289.51 389.95 289.17 412.06 289.19 415.68 288.53 415.64 313.42 417.88 313.3 441.77 313.46 441.86 336.73 441.64 359.79 441.67 364.32 439.11 366.96 436.29 367.15 435.01 369.14 429.49 371.79 428.83 376.44 429.19 380.42 428.34 382.9 428.81 385.9 426.7 386.29 426.99 389.26 425.25 390.83 424.28 396.16 425.97 397.19 422.54 403.53 423.48 404.74 449.99 404.67 450.55 409.15 449.9 412.49 452.44 415.66 451.57 419.9 449.12 420.51 448.84 425.82 421.85 425.89 370.72 419.14 371.13 423.4 367.36 427.23 367.27 428.96 364.83 430.47 361.74 434.18 362.88 434.82 361.53 439.11 359.47 439.29 357.65 442.3 303.15 425.55 234.37 424.77 234.98 380.25 235.32 357.75 235.34 346.16 235.72 329.92 237.36 214.69 237.29 210.74 Z"
-                        id="Yavapai"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 92.84 558.24 109.97 558.62 122.13 558.63 123.5 497.78 159.99 498.55 159.82 510.72 196.58 511.42 232.97 511.95 232.84 536.15 232.62 548.41 231.46 634.08 230.61 699.38 181.18 680.4 122.08 657.55 55.77 632.06 55.92 627.83 57.29 626.19 56.58 623.08 57.8 618.19 56.74 614.86 58.92 614.26 62.17 611.43 68.41 599.3 71.48 598.36 79.79 599.9 84.15 599.07 86.25 597.07 90.73 596.13 90.27 591.34 92.9 587.87 97.88 583.96 98.64 574.45 96.77 571.31 98.4 568.4 98.3 566.15 95.8 566.43 94.78 561.64 92.84 558.24 Z"
-                        id="Yuma"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 502.56 500.25 510.39 517.58 513.79 530.39 533.43 567.34 535.59 567.08 535.7 564.49 539.73 561.32 541.16 557.73 540.09 555.39 542.5 553.38 545.06 552.74 545.66 549.48 548.14 549.14 550.73 545.07 553.79 545.03 555.57 546.19 558.43 544.63 565.93 538.73 570.81 539.07 572.47 537.48 572.92 572.07 573.48 606.41 573.77 632.77 573.5 632.77 526.8 633.35 526.8 633.73 489.73 634.03 489.73 635.38 440.87 635.67 440.87 634.91 414.38 634.99 365.59 634.94 365.78 574.04 365.97 561.8 366.08 525.22 367.28 528.78 372.08 530.3 376.46 534.06 378.56 533.66 380.19 537.26 412.63 537.27 438.97 537.11 438.73 512.83 439.09 500.65 502.56 500.25 Z"
-                        id="Pinal"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 624.29 483.08 628.06 483.08 633.47 484.15 637.1 484.1 639.86 484.86 641.75 488.01 644.01 488.57 645.51 491.75 648.1 495.03 651.95 496.76 654.4 495.32 655.1 491.77 658.17 489.65 658.75 488.07 661.44 487.01 664.15 481.34 669.82 479.93 670.53 477.27 673.49 476.87 675.88 475.08 678.81 475.9 683.29 471.22 685.13 551.66 705.08 584.14 706.89 584.16 715.9 598.06 719.81 606.56 720.87 612.82 719.42 617.64 720.46 620.05 718.86 625.87 718.9 627.82 732.55 641.87 719.06 642.44 694.78 642.63 667.32 643.37 585.85 644.87 573.73 644.88 573.5 632.77 573.77 632.77 573.48 606.41 572.92 572.07 572.47 537.48 577.24 537.76 574.01 531.21 571.31 523.39 572.02 520.43 572.98 511.27 575.65 510.58 576.29 508.43 578.39 508 582.18 508.81 584.68 504.75 587.97 503.79 590.41 504.28 592.74 502.51 595.67 503.25 597.76 502.14 599.44 503.25 602.05 501.39 604.83 500.97 604.73 499.05 624.58 498.62 624.29 483.08 Z"
-                        id="Graham"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 234.37 424.77 303.15 425.55 357.65 442.3 359.47 439.29 361.53 439.11 362.88 434.82 361.74 434.18 364.83 430.47 367.27 428.96 367.36 427.23 371.13 423.4 370.72 419.14 421.85 425.89 448.84 425.82 452.21 424.99 455.22 426.29 456.07 427.97 453.77 431.09 454.43 433.95 454.03 437.01 456.97 436.13 459.37 437.05 458.56 441.91 461.41 444.88 460.56 448.04 462.43 454.35 461.31 457.03 461.64 460.76 464.86 462.01 467.53 464.86 468.17 469.35 470.07 470.3 476.89 478.74 479.15 479.12 480.8 481.22 482.75 478.76 482.51 476.95 485.86 473.25 489.06 470.8 502.56 500.25 439.09 500.65 438.73 512.83 438.97 537.11 412.63 537.27 380.19 537.26 378.56 533.66 376.46 534.06 372.08 530.3 367.28 528.78 366.08 525.22 365.97 561.8 365.78 574.04 365.59 634.94 327.97 634.78 303.67 634.81 267.76 634.53 231.46 634.08 232.62 548.41 232.84 536.15 232.97 511.95 233.47 475.38 234.37 424.77 Z"
-                        id="Maricopa"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 615.03 3.86 657.19 2.88 671.84 2.4 722.45 1 726.08 124.61 729.06 230.18 730.8 286.77 732.51 348.04 735.36 452.41 700.06 453.24 698.49 456.92 697.88 461.1 694.59 462.51 689.38 462.62 687.09 465.01 684.85 465.93 685.09 469.65 683.29 471.22 678.81 475.9 675.88 475.08 673.49 476.87 670.53 477.27 669.82 479.93 664.15 481.34 661.44 487.01 658.75 488.07 658.17 489.65 655.1 491.77 654.4 495.32 651.95 496.76 648.1 495.03 645.51 491.75 644.01 488.57 641.75 488.01 639.86 484.86 637.1 484.1 636.51 454.71 640.31 454.64 639.35 405.89 640.48 405.85 639.63 357.18 637.41 345.13 638.87 332.8 638.2 308.29 639.04 308.26 638.81 290.08 638.48 283.4 638.13 259.53 637.11 210.88 639.03 210.82 638.6 190.54 618.74 190.94 615.03 3.86 Z"
-                        id="Apache"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 141.37 380.63 144.12 381.79 146.01 381.1 149.36 382.59 153.67 387 156.63 387.89 161.58 387.38 165.54 388.69 169.42 388.84 172.31 388.02 174.55 388.59 176.06 392.46 181.16 390.75 183.51 391.87 188.6 390.39 189.48 392.81 191.59 394.69 196.3 394.48 200.72 392.16 203.86 391.62 205.79 388.22 209.3 384.38 211.01 381.5 218.37 381.76 227.03 382.69 230.61 383.82 232.8 382.8 234.98 380.25 234.37 424.77 233.47 475.38 232.97 511.95 196.58 511.42 159.82 510.72 159.99 498.55 123.5 497.78 122.13 558.63 109.97 558.62 92.84 558.24 86.41 556.84 82.9 558.33 79.7 557.45 78.43 555.43 74.71 556.35 74.37 553.65 72.73 549.85 70.56 547.91 71.99 543.21 74.24 538.82 74.97 530.08 73.28 527.26 75.08 525.86 74.84 523.81 69.46 521.16 68.58 519.12 72.27 514.37 72.58 511 71.57 507.75 69.93 505.65 74.1 503.08 77.56 503.86 80.99 501.83 81.88 497.87 85.72 491.96 89.38 489.63 89.67 487.52 93.77 484.76 92.03 479.23 94.27 476.5 94.15 473.22 93.1 471.26 94.32 466.05 97.57 464.58 97.64 461.47 95.85 459.31 96.58 454.6 94.29 447.95 95.28 446.52 94.14 442.28 96.01 441.87 97.29 439.35 95.09 436.95 96.57 434.54 94.03 432.37 95.5 428.27 98.11 427.47 105.51 419.13 105.51 414.18 106.21 410.07 108.41 407.28 114.2 405.89 116.41 403.72 119.15 403.46 123.61 398.83 127.48 398.46 130.36 396.69 130.86 394.62 137.92 388.07 138.17 386.76 142.07 386.32 141.37 380.63 Z"
-                        id="La Paz"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 530.7 4.49 558.8 3.96 562.24 4.79 612.65 3.82 615.03 3.86 618.74 190.94 638.6 190.54 639.03 210.82 637.11 210.88 638.13 259.53 638.48 283.4 638.81 290.08 639.04 308.26 638.2 308.29 638.87 332.8 637.41 345.13 639.63 357.18 640.48 405.85 639.35 405.89 640.31 454.64 636.51 454.71 637.1 484.1 633.47 484.15 628.06 483.08 624.29 483.08 623.19 423.82 593.8 424.33 535.68 425.14 535.26 388.27 533.41 229.79 530.7 4.49 Z"
-                        id="Navajo"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 683.29 471.22 685.09 469.65 684.85 465.93 687.09 465.01 689.38 462.62 694.59 462.51 697.88 461.1 698.49 456.92 700.06 453.24 735.36 452.41 735.99 473.75 737.34 526.28 739.19 592.46 740.46 641.66 732.55 641.87 718.9 627.82 718.86 625.87 720.46 620.05 719.42 617.64 720.87 612.82 719.81 606.56 715.9 598.06 706.89 584.16 705.08 584.14 685.13 551.66 683.29 471.22 Z"
-                        id="Greenlee"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 574.9 742.36 575.13 758.78 574.11 758.8 574.35 778.97 574.75 798.15 534.4 798.51 500.82 799 465.72 786.09 465.58 772.75 489.96 772.56 489.7 743.98 526.62 743.56 526.61 742.86 574.9 742.36 Z"
-                        id="Santa Cruz"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 231.46 634.08 267.76 634.53 303.67 634.81 327.97 634.78 365.59 634.94 414.38 634.99 440.87 634.91 440.87 635.67 489.73 635.38 489.73 634.03 526.8 633.73 526.8 633.35 573.5 632.77 573.73 644.88 574.07 669.21 574.46 669.2 574.6 685.46 574.33 693.58 574.75 718.02 574.9 742.36 526.61 742.86 526.62 743.56 489.7 743.98 489.96 772.56 465.58 772.75 465.72 786.09 341.89 740.54 286.11 720.05 255.3 708.92 230.61 699.38 231.46 634.08 Z"
-                        id="Pima"></path>
-                </a>
-                <a>
-                    <path
-                        d="M 574.9 742.36 574.75 718.02 574.33 693.58 574.6 685.46 574.46 669.2 574.07 669.21 573.73 644.88 585.85 644.87 667.32 643.37 694.78 642.63 719.06 642.44 732.55 641.87 740.46 641.66 743.23 752.28 744.23 794.87 716.75 795.35 650.48 796.76 629.94 797.26 613.12 797.42 574.75 798.15 574.35 778.97 574.11 758.8 575.13 758.78 574.9 742.36 Z"
-                        id="Cochise"></path>
-                </a>
-            </g>
-        </svg>
-
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nisi quo molestias pariatur atque quis
-                dignissimos. Quae ullam dolorem voluptatem quisquam asperiores, odio, esse aut non doloribus amet eius
-                saepe obcaecati quis corrupti aspernatur blanditiis beatae distinctio doloremque possimus cum expedita
-                ea. Doloremque sunt, repudiandae veniam iste quia ducimus aliquam nostrum a? Quas labore, nihil eveniet
-                similique facere praesentium iusto, reprehenderit veritatis, beatae quaerat dolorem. Inventore dolorum
-                consequatur ex assumenda distinctio voluptates, magnam itaque, expedita fugit cupiditate eius neque
-                eaque delectus similique voluptatibus mollitia sunt officiis. Expedita vero voluptatum excepturi, iure
-                modi id, dignissimos nam enim laudantium ipsa ullam numquam!</p>
-            <p>Vel, eveniet aut aperiam nemo consequuntur rem voluptatum voluptatem, similique debitis eos esse
-                laudantium eius et dolores veritatis perspiciatis repellendus numquam vitae itaque dolore asperiores
-                doloribus? Eum repudiandae nemo fugiat vel hic odio quod saepe itaque, exercitationem maiores magnam
-                officiis sed maxime eius quos harum, sunt tenetur sit enim eligendi praesentium, consequatur dolore in
-                obcaecati. Ducimus neque cum quo iure laboriosam rem libero ad. Animi fuga alias voluptates fugit
-                debitis necessitatibus provident quod earum harum atque, assumenda ad accusantium, deserunt obcaecati
-                vero error deleniti vitae omnis! Totam, animi asperiores? Laboriosam doloribus dicta quos quasi ipsa?
-                Eum officia aliquid animi aut?</p>
-            <p>Mollitia, sit ex dolorem sapiente cumque nulla quos maiores atque quis excepturi qui consequatur, aut
-                odit recusandae ducimus consectetur similique velit ipsum facilis? Iusto asperiores consequatur nisi
-                esse, tempora voluptate repellendus, ipsam officia earum, labore deleniti quibusdam minus magni vel
-                quidem? A mollitia consectetur repellat aspernatur perferendis impedit quaerat, reprehenderit
-                temporibus. Aspernatur ratione reiciendis voluptates vitae fuga sed cupiditate magni, tenetur iusto
-                reprehenderit rerum voluptatum dolor voluptas dolore debitis accusamus dolorum dicta quisquam quia,
-                excepturi optio. Unde nemo nesciunt deleniti placeat ratione, non est officiis praesentium, alias sed
-                asperiores officia! Tenetur dignissimos magnam quasi ullam. Dolor qui laborum vero provident?</p>
-            <p>Laboriosam quibusdam asperiores amet, repellendus explicabo quae hic quod, consequatur odit nostrum
-                eligendi numquam nesciunt placeat praesentium laudantium cumque maxime non earum facilis beatae est
-                suscipit, nulla tempora eaque. Ea, neque? Id blanditiis voluptates nulla exercitationem, similique nihil
-                dolores ipsum numquam eius maxime accusamus quidem nobis modi explicabo sunt, animi, adipisci culpa
-                aliquam. Facilis voluptatem fugiat asperiores! Illo reiciendis in deserunt necessitatibus modi placeat
-                fugiat obcaecati numquam aliquam veritatis fuga ducimus nihil doloribus suscipit corrupti architecto,
-                vero, animi nulla, id excepturi voluptas odio blanditiis! Eos veritatis nisi a obcaecati fuga distinctio
-                voluptatem odio necessitatibus, accusamus accusantium earum ad quae in?</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ratione ad adipisci quas consequuntur aut
-                laudantium aspernatur est ducimus, unde magnam architecto cumque aperiam tempore molestias, non nesciunt
-                nostrum eveniet autem possimus quis voluptas illo! Obcaecati odio nam eos itaque nisi voluptas natus ex
-                cumque dolore illo id sed accusantium quisquam, expedita ipsa, cupiditate, iure velit. Sint ratione rem
-                esse voluptatibus, quae pariatur. Possimus modi, maiores blanditiis corporis facilis tempora dolorem
-                officia veritatis aperiam architecto molestias nisi quod consequuntur expedita ut nam eum reiciendis
-                facere iure eos quisquam voluptas! Earum qui atque unde commodi at excepturi consequuntur nemo id magni.
-            </p>
-            <p>Earum atque reiciendis ipsum debitis totam quo aperiam necessitatibus fuga quia pariatur omnis, veniam
-                hic molestias dignissimos, aut maxime ad itaque, eligendi ut rem ullam. Quod minus reiciendis sequi rem,
-                error dolor itaque quidem dolores, recusandae mollitia consequuntur dolore neque temporibus! Porro autem
-                et molestiae vel labore fugiat reiciendis atque sapiente totam, sit aspernatur adipisci dolores sequi,
-                ab maiores corporis cumque quod eveniet cum voluptate id repellendus? Consectetur dignissimos repellat
-                doloribus molestias unde beatae officia atque fugiat, eaque ex animi consequatur quae in nemo,
-                voluptatum reprehenderit at voluptatibus placeat corrupti impedit blanditiis! Quam dignissimos error
-                laboriosam voluptas ipsam dicta dolorum?</p>
-            <p>Minus at architecto repudiandae id, adipisci, iure doloribus repellat veniam cupiditate culpa consectetur
-                dolor ducimus fuga, aperiam corrupti incidunt. Odio, enim asperiores impedit totam quisquam vero minima
-                accusantium corrupti voluptatibus? Iusto quo veritatis officia commodi, ipsum dicta fugit magni quisquam
-                totam neque ab eveniet tempora, ex voluptate laboriosam, deleniti nemo saepe harum a cumque. Commodi
-                cumque nam inventore similique quod at nostrum nulla laborum! Incidunt animi at accusamus repellat
-                perspiciatis. Temporibus laborum facere laboriosam quos officiis expedita vero sapiente consequuntur
-                similique architecto, saepe impedit obcaecati eius tempora dolore magnam excepturi natus unde inventore
-                quidem! Asperiores excepturi sed mollitia saepe! Minus!</p>
-            <p>Accusamus iste quis debitis tenetur? Laudantium eaque mollitia reprehenderit explicabo doloribus rem
-                tempora placeat dolore optio, numquam magni ut ad dolor minus suscipit nam corrupti quod neque eveniet,
-                ipsum commodi adipisci. Porro saepe officiis ut quam sit ab dolores aliquam, commodi modi perspiciatis
-                rem ipsum numquam ex eaque eveniet, maiores enim. Quo fuga dolorum accusamus recusandae perspiciatis
-                laboriosam, nam eius optio culpa distinctio, natus modi minima a porro repudiandae deleniti sunt
-                voluptatibus vero sed consequuntur. Quis, necessitatibus excepturi. Ipsum illum corrupti vero repellat.
-                Veniam distinctio asperiores commodi nulla quo porro minima provident odio necessitatibus architecto aut
-                non blanditiis, repudiandae aliquam?</p>
-            <p>Ducimus, velit incidunt. Voluptatum consequatur debitis porro in, facilis officiis veritatis amet
-                consequuntur esse repellendus, quaerat sunt neque earum iste! Voluptas, ad consectetur? Modi sunt
-                veritatis at libero ab natus voluptas. Dolor doloremque blanditiis ullam in delectus dolorem modi, eius
-                est eveniet nemo quaerat libero voluptatem animi similique commodi officiis eum magnam nihil culpa magni
-                deleniti! Cumque repellat, pariatur voluptates voluptas iure provident soluta molestias architecto,
-                debitis maxime eaque excepturi assumenda ratione commodi optio, unde dicta animi voluptatem quisquam
-                deserunt officia id. Harum assumenda magni inventore quos voluptatem ducimus eligendi quia, quis modi ut
-                nesciunt ad temporibus voluptatibus suscipit. Distinctio!</p>
-            <p>Quis, assumenda voluptate eum, repellendus est commodi nulla suscipit, autem expedita deserunt nesciunt
-                nemo? Ratione eum nam omnis amet quaerat libero voluptas eius inventore accusantium ex, beatae
-                necessitatibus facere cumque quasi aut voluptatum maxime voluptates error quis impedit. Tenetur
-                molestiae culpa, animi velit distinctio est alias asperiores sapiente perspiciatis labore, dolore magnam
-                necessitatibus blanditiis impedit obcaecati ex molestias placeat, fugit odit quo quaerat iure! Adipisci
-                aut dolor doloremque rem sit vero illo quis ullam voluptatibus voluptate, veniam repudiandae eaque
-                voluptas laudantium suscipit, quidem doloribus explicabo atque laboriosam vel earum possimus quasi.
-                Deserunt quia perferendis tenetur quos enim officiis inventore reiciendis.</p>
-            <p>Porro, aut. Doloremque quis ipsum expedita consequuntur officia harum omnis odio necessitatibus
-                temporibus. Aspernatur eligendi eos ratione vero laboriosam et numquam corrupti, tempore aliquid ipsam
-                cumque corporis, deleniti rerum aperiam magni vel pariatur facere repudiandae mollitia veniam
-                exercitationem, quaerat suscipit? Suscipit maiores, optio voluptates itaque atque rerum saepe soluta
-                consequuntur modi! Labore sapiente possimus error eveniet. Explicabo accusantium magnam illo sed placeat
-                eos. Temporibus commodi alias, nihil, cum eaque cumque, suscipit consequatur recusandae ducimus vero
-                eos. Architecto voluptas magnam, sunt voluptate nulla tempore quaerat alias mollitia ducimus minus
-                provident magni! Accusantium animi repellat numquam! Eum, labore rerum? Alias, quam facere!</p>
-            <p>Ad natus est assumenda, fuga adipisci architecto dolor nostrum fugiat harum? Id asperiores enim delectus
-                recusandae nisi error, laboriosam quisquam dolorem aperiam eius nostrum repellat sapiente ut vero,
-                laborum reiciendis assumenda laudantium maxime nesciunt ad voluptas! Quibusdam architecto beatae eum
-                minus, eius ipsam ut, vero error inventore minima earum, sapiente deleniti blanditiis possimus
-                distinctio voluptas sit dolore alias excepturi nulla consequuntur molestiae harum? Cumque, laudantium.
-                Dolor quibusdam distinctio, adipisci iusto quaerat mollitia expedita officiis blanditiis repudiandae
-                exercitationem deserunt dignissimos laborum ipsam enim eum nulla et corrupti atque voluptatem delectus!
-                Tenetur iste velit corporis ipsum, tempore incidunt praesentium ipsa quo impedit!</p>
-            <p>Doloribus dolorum id hic facere voluptatibus! Consequatur, quo voluptate. Pariatur facilis modi tenetur
-                nesciunt non eum doloribus maxime, possimus commodi iste illo placeat voluptates consequuntur enim, ipsa
-                laboriosam at vitae, voluptate fugit! Assumenda numquam consectetur inventore magni obcaecati quisquam
-                officiis veniam adipisci quis animi! Quo sunt voluptas quam tenetur. Omnis doloremque eaque mollitia
-                voluptates. Laborum quam iusto ex? Possimus rem temporibus sed quis eligendi nulla assumenda dicta vero
-                minima dolorum ad sapiente nihil consequuntur in tempore, vel quaerat magni? Provident dolor modi
-                nostrum pariatur perspiciatis explicabo aliquid. Repellendus, harum autem vitae tempore ipsum ut commodi
-                ullam molestias illum, repellat accusantium!</p>
-            <p>Reprehenderit sapiente aspernatur beatae saepe pariatur. Est, blanditiis iure quod soluta dolores debitis
-                quas hic labore. Eveniet ea eos officia, tempora fugiat impedit. Officiis, quibusdam expedita vel
-                molestias numquam eveniet quas. Et, modi, ex optio porro impedit exercitationem aut eaque, voluptate
-                quisquam nam asperiores odit necessitatibus? Maxime reiciendis, excepturi consequatur quos beatae aut
-                quo ut veniam distinctio nostrum ab quaerat debitis molestiae quia dolore accusantium, quas voluptatibus
-                perspiciatis sequi autem impedit magnam fuga facilis. Consequuntur accusamus vel magni. Doloremque ab
-                tempora fuga pariatur earum eaque exercitationem enim tenetur, illum, voluptatibus expedita minus
-                corporis sed rerum, provident illo temporibus ex natus.</p>
-        </div>
-    </div>
-
-    <script type="text/javascript" src="../scripts/navbar.js"></script>
-</body>
-
-</html>
+    <!-- SVG Arizona Map -->
+    <svg id="map" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg" version="1.2"
+        viewBox="0 0 810 810" stroke-linecap="round" stroke-linejoin="round">
+        <g id="states" transform="translate(5,5)" stroke="white" stroke-width="2">
+            <a>
+                <path
+                    d="M 329.74 5.42 329.3 7.35 330.74 12.18 328.97 14.09 328.53 17.77 326.09 20.12 324.4 26.85 323.51 27.77 322.67 32.33 320.39 35.88 321.19 42.32 318.16 51.09 319.9 57.73 320.07 62.05 318.65 65.67 316.33 67.35 315.7 71.39 319.71 79.03 317.19 81.45 317.25 84.68 319.51 88.09 318.89 90.67 316.66 92.31 316.42 94.23 312.93 97.62 310.99 95.69 308.13 96.98 308.49 100.23 305.51 99.95 303.81 101.97 301.01 103.08 300.29 105.45 298.01 104.93 294.19 106.51 292.05 105.74 287.71 109.71 285.16 109.32 284.43 110.97 278.79 112.69 275.95 111.68 272.54 113.12 270.63 115.74 265.76 117.9 260.98 121.64 258.99 120.48 254.18 123.44 253.55 128.18 250.86 132.05 247.19 132.38 244.69 131.1 240.81 130.67 238.77 135.08 236.05 138.96 238.16 147.52 240.11 150.09 237.99 156.71 240.65 159.64 240.68 163.85 238.75 166.98 237.87 172.56 237.29 210.74 237.36 214.69 235.72 329.92 235.34 346.16 235.32 357.75 234.98 380.25 232.8 382.8 230.61 383.82 227.03 382.69 218.37 381.76 211.01 381.5 209.3 384.38 205.79 388.22 203.86 391.62 200.72 392.16 196.3 394.48 191.59 394.69 189.48 392.81 188.6 390.39 183.51 391.87 181.16 390.75 176.06 392.46 174.55 388.59 172.31 388.02 169.42 388.84 165.54 388.69 161.58 387.38 156.63 387.89 153.67 387 149.36 382.59 146.01 381.1 144.12 381.79 141.37 380.63 139.21 378.54 137.02 374.08 134.43 372.33 131.35 371.63 127.03 366.56 124.43 365.94 122.85 362.89 118.1 359.33 114.48 359.87 113.01 358.3 114.17 351.41 113.93 348.26 111.24 342.6 107.73 338.7 109.19 336.82 107.54 335.24 106.27 329.12 103.82 322.18 98.94 318.86 94.87 314.53 92.86 310.63 91.18 304.79 86.23 300.35 85.6 297.62 86.36 294.62 86.63 289.36 86.09 287.37 86.85 282.78 86.13 277.64 89.73 273.45 90.01 271.23 85.28 267.31 87 265.22 93.27 263.75 94.4 259.08 94.24 253.71 93.37 252.42 92.75 245.01 91.69 240.13 92.06 236.31 88.76 224.25 85.86 221.2 83.15 211.6 83.38 209.63 85.75 206.97 85.18 202.34 86.48 195.98 82.57 190.33 83.44 184.99 80.93 181.67 81.95 178.62 81.99 170.7 80.54 168.41 82.57 164.81 81.35 162.43 86.39 159.11 82.28 155.06 81 150.8 77.98 144.57 78.14 139.29 80.21 137.42 78.05 134.77 78.85 133.7 76.81 129.25 79.01 126.55 85.11 126.06 91.18 121.59 93.39 123.15 97.96 120.53 105.12 120.92 106.08 124.19 109.56 122.56 112.35 124.49 115.66 121.84 120.77 122.32 121.99 124.43 125.35 127.64 127.75 130.93 127.07 133.21 129.47 135.45 131.73 136.21 132.74 139.04 135.88 140.89 142.78 139.1 145.26 139.66 147.21 136.8 147.69 133.74 149.98 129.58 149.46 126.9 151.76 126.12 155.21 118.22 158.01 116.09 158.09 104.89 158.67 90.02 158.84 73.67 158.93 46.65 159.28 25.03 159.77 3 174.9 3.38 207.7 4.01 247.01 4.63 281.64 5.06 329.74 5.42 Z"
+                    id="Mohave"></path>
+            </a>
+            <a>
+                <path
+                    d="M 329.74 5.42 405.41 5.56 457.1 5.38 471.4 5.43 487.65 5.27 495.21 4.98 530.7 4.49 533.41 229.79 535.26 388.27 533.59 384.21 529.93 383.32 526.61 383.87 523.92 387.85 520.5 386.68 518.19 382.97 513.08 381.9 509.77 379.99 508.97 378.24 506.47 377.25 504.82 375.04 502.3 377.73 500.34 376.88 501.5 373.2 497.25 372.08 495.93 370.21 492.36 371.91 489.83 371.67 487.39 369.04 482.08 368.23 476.54 362.33 469.94 365.78 464.95 366.28 462.9 364.18 459.7 366.63 458.82 372.99 456.77 370.52 456.48 363.04 452.64 366.26 451.82 367.8 447.03 366.7 445.12 368.2 442.3 367.02 449.94 362.29 446.96 362.16 444.68 359.96 441.64 359.79 441.86 336.73 441.77 313.46 417.88 313.3 415.64 313.42 415.68 288.53 412.06 289.19 389.95 289.17 387.51 289.51 351.46 289.56 351.42 265.02 339.16 264.82 339.23 249.42 335.72 252.34 332.64 251.7 327.79 252.54 323.7 251.54 320.93 248.16 318.77 247.11 318.95 244.88 316.48 243.47 314.2 244.64 312.04 242.4 309.49 241.9 305.65 242.77 299.92 241.22 298.56 240.2 287.94 237.21 280.67 235.83 279.72 232.46 278.01 230.22 265.76 221.8 258.57 217.92 255.52 214 250.48 213.6 244.96 210.46 237.29 210.74 237.87 172.56 238.75 166.98 240.68 163.85 240.65 159.64 237.99 156.71 240.11 150.09 238.16 147.52 236.05 138.96 238.77 135.08 240.81 130.67 244.69 131.1 247.19 132.38 250.86 132.05 253.55 128.18 254.18 123.44 258.99 120.48 260.98 121.64 265.76 117.9 270.63 115.74 272.54 113.12 275.95 111.68 278.79 112.69 284.43 110.97 285.16 109.32 287.71 109.71 292.05 105.74 294.19 106.51 298.01 104.93 300.29 105.45 301.01 103.08 303.81 101.97 305.51 99.95 308.49 100.23 308.13 96.98 310.99 95.69 312.93 97.62 316.42 94.23 316.66 92.31 318.89 90.67 319.51 88.09 317.25 84.68 317.19 81.45 319.71 79.03 315.7 71.39 316.33 67.35 318.65 65.67 320.07 62.05 319.9 57.73 318.16 51.09 321.19 42.32 320.39 35.88 322.67 32.33 323.51 27.77 324.4 26.85 326.09 20.12 328.53 17.77 328.97 14.09 330.74 12.18 329.3 7.35 329.74 5.42 Z"
+                    id="Coconino"></path>
+            </a>
+            <a>
+                <path
+                    d="M 441.64 359.79 444.68 359.96 446.96 362.16 449.94 362.29 442.3 367.02 445.12 368.2 447.03 366.7 451.82 367.8 452.64 366.26 456.48 363.04 456.77 370.52 458.82 372.99 459.7 366.63 462.9 364.18 464.95 366.28 469.94 365.78 476.54 362.33 482.08 368.23 487.39 369.04 489.83 371.67 492.36 371.91 495.93 370.21 497.25 372.08 501.5 373.2 500.34 376.88 502.3 377.73 504.82 375.04 506.47 377.25 508.97 378.24 509.77 379.99 513.08 381.9 518.19 382.97 520.5 386.68 523.92 387.85 526.61 383.87 529.93 383.32 533.59 384.21 535.26 388.27 535.68 425.14 593.8 424.33 623.19 423.82 624.29 483.08 624.58 498.62 604.73 499.05 604.83 500.97 602.05 501.39 599.44 503.25 597.76 502.14 595.67 503.25 592.74 502.51 590.41 504.28 587.97 503.79 584.68 504.75 582.18 508.81 578.39 508 576.29 508.43 575.65 510.58 572.98 511.27 572.02 520.43 571.31 523.39 574.01 531.21 577.24 537.76 572.47 537.48 570.81 539.07 565.93 538.73 558.43 544.63 555.57 546.19 553.79 545.03 550.73 545.07 548.14 549.14 545.66 549.48 545.06 552.74 542.5 553.38 540.09 555.39 541.16 557.73 539.73 561.32 535.7 564.49 535.59 567.08 533.43 567.34 513.79 530.39 510.39 517.58 502.56 500.25 489.06 470.8 485.86 473.25 482.51 476.95 482.75 478.76 480.8 481.22 479.15 479.12 476.89 478.74 470.07 470.3 468.17 469.35 467.53 464.86 464.86 462.01 461.64 460.76 461.31 457.03 462.43 454.35 460.56 448.04 461.41 444.88 458.56 441.91 459.37 437.05 456.97 436.13 454.03 437.01 454.43 433.95 453.77 431.09 456.07 427.97 455.22 426.29 452.21 424.99 448.84 425.82 449.12 420.51 451.57 419.9 452.44 415.66 449.9 412.49 450.55 409.15 449.99 404.67 423.48 404.74 422.54 403.53 425.97 397.19 424.28 396.16 425.25 390.83 426.99 389.26 426.7 386.29 428.81 385.9 428.34 382.9 429.19 380.42 428.83 376.44 429.49 371.79 435.01 369.14 436.29 367.15 439.11 366.96 441.67 364.32 441.64 359.79 Z"
+                    id="Gila"></path>
+            </a>
+            <a>
+                <path
+                    d="M 237.29 210.74 244.96 210.46 250.48 213.6 255.52 214 258.57 217.92 265.76 221.8 278.01 230.22 279.72 232.46 280.67 235.83 287.94 237.21 298.56 240.2 299.92 241.22 305.65 242.77 309.49 241.9 312.04 242.4 314.2 244.64 316.48 243.47 318.95 244.88 318.77 247.11 320.93 248.16 323.7 251.54 327.79 252.54 332.64 251.7 335.72 252.34 339.23 249.42 339.16 264.82 351.42 265.02 351.46 289.56 387.51 289.51 389.95 289.17 412.06 289.19 415.68 288.53 415.64 313.42 417.88 313.3 441.77 313.46 441.86 336.73 441.64 359.79 441.67 364.32 439.11 366.96 436.29 367.15 435.01 369.14 429.49 371.79 428.83 376.44 429.19 380.42 428.34 382.9 428.81 385.9 426.7 386.29 426.99 389.26 425.25 390.83 424.28 396.16 425.97 397.19 422.54 403.53 423.48 404.74 449.99 404.67 450.55 409.15 449.9 412.49 452.44 415.66 451.57 419.9 449.12 420.51 448.84 425.82 421.85 425.89 370.72 419.14 371.13 423.4 367.36 427.23 367.27 428.96 364.83 430.47 361.74 434.18 362.88 434.82 361.53 439.11 359.47 439.29 357.65 442.3 303.15 425.55 234.37 424.77 234.98 380.25 235.32 357.75 235.34 346.16 235.72 329.92 237.36 214.69 237.29 210.74 Z"
+                    id="Yavapai"></path>
+            </a>
+            <a>
+                <path
+                    d="M 92.84 558.24 109.97 558.62 122.13 558.63 123.5 497.78 159.99 498.55 159.82 510.72 196.58 511.42 232.97 511.95 232.84 536.15 232.62 548.41 231.46 634.08 230.61 699.38 181.18 680.4 122.08 657.55 55.77 632.06 55.92 627.83 57.29 626.19 56.58 623.08 57.8 618.19 56.74 614.86 58.92 614.26 62.17 611.43 68.41 599.3 71.48 598.36 79.79 599.9 84.15 599.07 86.25 597.07 90.73 596.13 90.27 591.34 92.9 587.87 97.88 583.96 98.64 574.45 96.77 571.31 98.4 568.4 98.3 566.15 95.8 566.43 94.78 561.64 92.84 558.24 Z"
+                    id="Yuma"></path>
+            </a>
+            <a>
+                <path
+                    d="M 502.56 500.25 510.39 517.58 513.79 530.39 533.43 567.34 535.59 567.08 535.7 564.49 539.73 561.32 541.16 557.73 540.09 555.39 542.5 553.38 545.06 552.74 545.66 549.48 548.14 549.14 550.73 545.07 553.79 545.03 555.57 546.19 558.43 544.63 565.93 538.73 570.81 539.07 572.47 537.48 572.92 572.07 573.48 606.41 573.77 632.77 573.5 632.77 526.8 633.35 526.8 633.73 489.73 634.03 489.73 635.38 440.87 635.67 440.87 634.91 414.38 634.99 365.59 634.94 365.78 574.04 365.97 561.8 366.08 525.22 367.28 528.78 372.08 530.3 376.46 534.06 378.56 533.66 380.19 537.26 412.63 537.27 438.97 537.11 438.73 512.83 439.09 500.65 502.56 500.25 Z"
+                    id="Pinal"></path>
+            </a>
+            <a>
+                <path
+                    d="M 624.29 483.08 628.06 483.08 633.47 484.15 637.1 484.1 639.86 484.86 641.75 488.01 644.01 488.57 645.51 491.75 648.1 495.03 651.95 496.76 654.4 495.32 655.1 491.77 658.17 489.65 658.75 488.07 661.44 487.01 664.15 481.34 669.82 479.93 670.53 477.27 673.49 476.87 675.88 475.08 678.81 475.9 683.29 471.22 685.13 551.66 705.08 584.14 706.89 584.16 715.9 598.06 719.81 606.56 720.87 612.82 719.42 617.64 720.46 620.05 718.86 625.87 718.9 627.82 732.55 641.87 719.06 642.44 694.78 642.63 667.32 643.37 585.85 644.87 573.73 644.88 573.5 632.77 573.77 632.77 573.48 606.41 572.92 572.07 572.47 537.48 577.24 537.76 574.01 531.21 571.31 523.39 572.02 520.43 572.98 511.27 575.65 510.58 576.29 508.43 578.39 508 582.18 508.81 584.68 504.75 587.97 503.79 590.41 504.28 592.74 502.51 595.67 503.25 597.76 502.14 599.44 503.25 602.05 501.39 604.83 500.97 604.73 499.05 624.58 498.62 624.29 483.08 Z"
+                    id="Graham"></path>
+            </a>
+            <a>
+                <path
+                    d="M 234.37 424.77 303.15 425.55 357.65 442.3 359.47 439.29 361.53 439.11 362.88 434.82 361.74 434.18 364.83 430.47 367.27 428.96 367.36 427.23 371.13 423.4 370.72 419.14 421.85 425.89 448.84 425.82 452.21 424.99 455.22 426.29 456.07 427.97 453.77 431.09 454.43 433.95 454.03 437.01 456.97 436.13 459.37 437.05 458.56 441.91 461.41 444.88 460.56 448.04 462.43 454.35 461.31 457.03 461.64 460.76 464.86 462.01 467.53 464.86 468.17 469.35 470.07 470.3 476.89 478.74 479.15 479.12 480.8 481.22 482.75 478.76 482.51 476.95 485.86 473.25 489.06 470.8 502.56 500.25 439.09 500.65 438.73 512.83 438.97 537.11 412.63 537.27 380.19 537.26 378.56 533.66 376.46 534.06 372.08 530.3 367.28 528.78 366.08 525.22 365.97 561.8 365.78 574.04 365.59 634.94 327.97 634.78 303.67 634.81 267.76 634.53 231.46 634.08 232.62 548.41 232.84 536.15 232.97 511.95 233.47 475.38 234.37 424.77 Z"
+                    id="Maricopa"></path>
+            </a>
+            <a>
+                <path
+                    d="M 615.03 3.86 657.19 2.88 671.84 2.4 722.45 1 726.08 124.61 729.06 230.18 730.8 286.77 732.51 348.04 735.36 452.41 700.06 453.24 698.49 456.92 697.88 461.1 694.59 462.51 689.38 462.62 687.09 465.01 684.85 465.93 685.09 469.65 683.29 471.22 678.81 475.9 675.88 475.08 673.49 476.87 670.53 477.27 669.82 479.93 664.15 481.34 661.44 487.01 658.75 488.07 658.17 489.65 655.1 491.77 654.4 495.32 651.95 496.76 648.1 495.03 645.51 491.75 644.01 488.57 641.75 488.01 639.86 484.86 637.1 484.1 636.51 454.71 640.31 454.64 639.35 405.89 640.48 405.85 639.63 357.18 637.41 345.13 638.87 332.8 638.2 308.29 639.04 308.26 638.81 290.08 638.48 283.4 638.13 259.53 637.11 210.88 639.03 210.82 638.6 190.54 618.74 190.94 615.03 3.86 Z"
+                    id="Apache"></path>
+            </a>
+            <a>
+                <path
+                    d="M 141.37 380.63 144.12 381.79 146.01 381.1 149.36 382.59 153.67 387 156.63 387.89 161.58 387.38 165.54 388.69 169.42 388.84 172.31 388.02 174.55 388.59 176.06 392.46 181.16 390.75 183.51 391.87 188.6 390.39 189.48 392.81 191.59 394.69 196.3 394.48 200.72 392.16 203.86 391.62 205.79 388.22 209.3 384.38 211.01 381.5 218.37 381.76 227.03 382.69 230.61 383.82 232.8 382.8 234.98 380.25 234.37 424.77 233.47 475.38 232.97 511.95 196.58 511.42 159.82 510.72 159.99 498.55 123.5 497.78 122.13 558.63 109.97 558.62 92.84 558.24 86.41 556.84 82.9 558.33 79.7 557.45 78.43 555.43 74.71 556.35 74.37 553.65 72.73 549.85 70.56 547.91 71.99 543.21 74.24 538.82 74.97 530.08 73.28 527.26 75.08 525.86 74.84 523.81 69.46 521.16 68.58 519.12 72.27 514.37 72.58 511 71.57 507.75 69.93 505.65 74.1 503.08 77.56 503.86 80.99 501.83 81.88 497.87 85.72 491.96 89.38 489.63 89.67 487.52 93.77 484.76 92.03 479.23 94.27 476.5 94.15 473.22 93.1 471.26 94.32 466.05 97.57 464.58 97.64 461.47 95.85 459.31 96.58 454.6 94.29 447.95 95.28 446.52 94.14 442.28 96.01 441.87 97.29 439.35 95.09 436.95 96.57 434.54 94.03 432.37 95.5 428.27 98.11 427.47 105.51 419.13 105.51 414.18 106.21 410.07 108.41 407.28 114.2 405.89 116.41 403.72 119.15 403.46 123.61 398.83 127.48 398.46 130.36 396.69 130.86 394.62 137.92 388.07 138.17 386.76 142.07 386.32 141.37 380.63 Z"
+                    id="La Paz"></path>
+            </a>
+            <a>
+                <path
+                    d="M 530.7 4.49 558.8 3.96 562.24 4.79 612.65 3.82 615.03 3.86 618.74 190.94 638.6 190.54 639.03 210.82 637.11 210.88 638.13 259.53 638.48 283.4 638.81 290.08 639.04 308.26 638.2 308.29 638.87 332.8 637.41 345.13 639.63 357.18 640.48 405.85 639.35 405.89 640.31 454.64 636.51 454.71 637.1 484.1 633.47 484.15 628.06 483.08 624.29 483.08 623.19 423.82 593.8 424.33 535.68 425.14 535.26 388.27 533.41 229.79 530.7 4.49 Z"
+                    id="Navajo"></path>
+            </a>
+            <a>
+                <path
+                    d="M 683.29 471.22 685.09 469.65 684.85 465.93 687.09 465.01 689.38 462.62 694.59 462.51 697.88 461.1 698.49 456.92 700.06 453.24 735.36 452.41 735.99 473.75 737.34 526.28 739.19 592.46 740.46 641.66 732.55 641.87 718.9 627.82 718.86 625.87 720.46 620.05 719.42 617.64 720.87 612.82 719.81 606.56 715.9 598.06 706.89 584.16 705.08 584.14 685.13 551.66 683.29 471.22 Z"
+                    id="Greenlee"></path>
+            </a>
+            <a>
+                <path
+                    d="M 574.9 742.36 575.13 758.78 574.11 758.8 574.35 778.97 574.75 798.15 534.4 798.51 500.82 799 465.72 786.09 465.58 772.75 489.96 772.56 489.7 743.98 526.62 743.56 526.61 742.86 574.9 742.36 Z"
+                    id="Santa Cruz"></path>
+            </a>
+            <a>
+                <path
+                    d="M 231.46 634.08 267.76 634.53 303.67 634.81 327.97 634.78 365.59 634.94 414.38 634.99 440.87 634.91 440.87 635.67 489.73 635.38 489.73 634.03 526.8 633.73 526.8 633.35 573.5 632.77 573.73 644.88 574.07 669.21 574.46 669.2 574.6 685.46 574.33 693.58 574.75 718.02 574.9 742.36 526.61 742.86 526.62 743.56 489.7 743.98 489.96 772.56 465.58 772.75 465.72 786.09 341.89 740.54 286.11 720.05 255.3 708.92 230.61 699.38 231.46 634.08 Z"
+                    id="Pima"></path>
+            </a>
+            <a>
+                <path
+                    d="M 574.9 742.36 574.75 718.02 574.33 693.58 574.6 685.46 574.46 669.2 574.07 669.21 573.73 644.88 585.85 644.87 667.32 643.37 694.78 642.63 719.06 642.44 732.55 641.87 740.46 641.66 743.23 752.28 744.23 794.87 716.75 795.35 650.48 796.76 629.94 797.26 613.12 797.42 574.75 798.15 574.35 778.97 574.11 758.8 575.13 758.78 574.9 742.36 Z"
+                    id="Cochise"></path>
+            </a>
+        </g>
+    </svg>

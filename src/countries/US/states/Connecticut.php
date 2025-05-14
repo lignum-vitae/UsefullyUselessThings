@@ -1,4 +1,4 @@
 <?php
-$state = "Delaware";
+$state = "Connecticut";
 ?>
 <?php require "../../../includes/states.php" ?>

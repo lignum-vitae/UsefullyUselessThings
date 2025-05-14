@@ -1,178 +1,37 @@
-<!DOCTYPE html>
-<html class="colour-scheme adaptive">
-
-<head>
-    <link rel="stylesheet" href="../scripts/index.css">
-    <link rel="stylesheet" href="../scripts/navbar.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela Round">
-    <title>Wonderfully Useless Welcome Page</title>
-    <script src="scripts/htmx/htmx.min.js"></script>
-</head>
-
-<body>
-    <div id="header" class="center">
-        <h1>Usefully Useless Things</h1>
-        <img style="width:16vw" , alt="Flag of Hawaii" ,
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/640px-Flag_of_Hawaii.svg.png">
+<div class="body">
+    <div style="padding-left:16px">
+        <h1>Purpose</h1>
+        <p>The purpose of this website is twofold. The primary goal is to practice my data illustration skills and
+            build my toolkit as a data scientist, but also to have a collection of graphs, or charts, or anything
+            that may be useful to someone; even if it may not be useful to me.</p>
+    </div>
+    <div>
+        <link rel="stylesheet" href="../scripts/map.css">
     </div>
 
-    <iframe id="navbar" scrolling="no" src="navbar.html"></iframe>
-
-    <div class="body">
-        <div style="padding-left:16px">
-            <h1>Purpose</h1>
-            <p>The purpose of this website is twofold. The primary goal is to practice my data illustration skills and
-                build my toolkit as a data scientist, but also to have a collection of graphs, or charts, or anything
-                that may be useful to someone; even if it may not be useful to me.</p>
-        </div>
-        <div>
-            <link rel="stylesheet" href="../scripts/map.css">
-        </div>
-
-        <svg id="map" preserveAspectRatio="xMinYMin meet" class="Hawaii" xmlns="http://www.w3.org/2000/svg"
-            viewbox="0 0 400 200" version="1.0">
-            <g id="states" fill-opacity="1" fill-rule="nonzero" stroke="none" font-size="12"
-                transform="translate(-260.30998 -416.36556)">
-                <a>
-                    <path id="Kauai"
-                        d="M303.46576 421.55052h4.99585l2.15081 1.43009.70556 2.13946v1.43388l-1.43008 3.56575v4.29028l-2.85639 2.85259-2.13566 1.43767-7.14289-.72072-2.86018-2.85259-4.28648-1.4339-1.43008-1.42629v-2.14704l2.14703-2.8564 7.14666-5.71278h4.99585m-33.57873 22.86631-.71316-.72453.71316-4.28269 4.28648-2.86019.71695-2.13944h2.14325l-.71316 4.99963-3.57334 1.43009-2.14324 3.57713h-.71694" />
-                </a>
-                <a>
-                    <path id="Honolulu"
-                        d="m388.48988 461.55139-2.86398 2.15463v-.71695l-4.28647 1.42629-3.57335-2.14324-7.14287.71695-2.86019.71695-1.4263-3.58094-2.14704-1.42629-.70935-2.13945-2.14703-2.14703v-2.14325l-2.14325-1.4225 7.14667-1.43767 3.57334-4.99206 2.14325-1.43389 2.13944.70936 3.57333 6.42972h.71316l.71315 1.4339-.71315 1.42628.71315 2.13946 2.86018 2.15083.71314-2.15083h1.4301v2.15083l1.43009.71694.71316 2.8564 2.15082.70556" />
-                </a>
-                <a>
-                    <path id="Maui"
-                        d="M420.63093 467.27176h.72074l1.4301.70935h.70935l-.70935-1.4263 6.42212-1.42629 2.8602.71694-1.4301 2.86018-4.28647 2.85259h-2.14324l-8.5654-1.42249-10.00307.70937h-.72072l2.15083-5.71659h.71313l10.00308.71694 2.14324.70935.70556.71695m17.14594 4.99963 2.14324.71695 3.57334 5.71658 7.14287-3.56955 4.28649.71315v.71315l5.71657 3.57714 4.99964 1.42629.71315 1.42629v2.85259l-2.8564 2.8602-3.57333 1.43009-7.14288 2.86398h-5.00342l-1.4301-.72073-1.4263-8.56918-2.13943-.71695-1.43011 1.42252-4.28649-2.13946-2.85638-2.86018-.71694-2.8526 1.43009-2.86019.71316-1.43009h2.14323m-18.56844 6.43353h4.99585l2.86017 2.14323 1.42631 2.14324-.71695 2.85259-6.42214 2.15084-.72074-2.86018-.70556-2.14325-2.8564-2.85258v-.72454l2.13946-.70935m21.42863 14.29333.71314.70936.71316 2.8564-5.7166 1.43008-2.13943-.72073 1.42631-2.13187 5.00342-2.14324" />
-                </a>
-                <a>
-                    <path id="Hawaii"
-                        d="m489.22227 570.1512-1.42629 1.43007-2.86018-2.14323-7.14289-2.8564-1.43768-2.14703-.71314-1.42631.71314-11.43316-4.99963-12.15008-2.86019-2.85261-2.14324-2.85638.71694-2.15084 4.28649-4.28268 4.99963-6.42595v-2.85637l-3.56953-5.00343-.71696-2.8564.71696-2.86399 1.42628-.71313 4.29029.71313 1.4263 2.14325 6.43352 2.86398 7.86361 1.4263 8.57297 3.57713 5.71658 3.56953 2.8564 3.56955.71313 5.72036 3.56956-.71693 1.43008 2.13565v2.86398l3.57335 2.8564 4.99963 2.13945-1.43011 2.86017-7.85602 7.14288-6.42972 3.58094-5.71658.71315-6.42973 4.99582-3.56954 2.13946-5.00343 9.29372" />
-                </a>
-                <a>
-                    <path id="Kalawao"
-                        d="m419.92537 466.55481-2.14324-.70935 4.99964.70935.70935 1.4263h-.70935l-1.4301-.70935h-.72074l-.70556-.71695" />
-                </a>
-            </g>
-        </svg>
-
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nisi quo molestias pariatur atque quis
-                dignissimos. Quae ullam dolorem voluptatem quisquam asperiores, odio, esse aut non doloribus amet eius
-                saepe obcaecati quis corrupti aspernatur blanditiis beatae distinctio doloremque possimus cum expedita
-                ea. Doloremque sunt, repudiandae veniam iste quia ducimus aliquam nostrum a? Quas labore, nihil eveniet
-                similique facere praesentium iusto, reprehenderit veritatis, beatae quaerat dolorem. Inventore dolorum
-                consequatur ex assumenda distinctio voluptates, magnam itaque, expedita fugit cupiditate eius neque
-                eaque delectus similique voluptatibus mollitia sunt officiis. Expedita vero voluptatum excepturi, iure
-                modi id, dignissimos nam enim laudantium ipsa ullam numquam!</p>
-            <p>Vel, eveniet aut aperiam nemo consequuntur rem voluptatum voluptatem, similique debitis eos esse
-                laudantium eius et dolores veritatis perspiciatis repellendus numquam vitae itaque dolore asperiores
-                doloribus? Eum repudiandae nemo fugiat vel hic odio quod saepe itaque, exercitationem maiores magnam
-                officiis sed maxime eius quos harum, sunt tenetur sit enim eligendi praesentium, consequatur dolore in
-                obcaecati. Ducimus neque cum quo iure laboriosam rem libero ad. Animi fuga alias voluptates fugit
-                debitis necessitatibus provident quod earum harum atque, assumenda ad accusantium, deserunt obcaecati
-                vero error deleniti vitae omnis! Totam, animi asperiores? Laboriosam doloribus dicta quos quasi ipsa?
-                Eum officia aliquid animi aut?</p>
-            <p>Mollitia, sit ex dolorem sapiente cumque nulla quos maiores atque quis excepturi qui consequatur, aut
-                odit recusandae ducimus consectetur similique velit ipsum facilis? Iusto asperiores consequatur nisi
-                esse, tempora voluptate repellendus, ipsam officia earum, labore deleniti quibusdam minus magni vel
-                quidem? A mollitia consectetur repellat aspernatur perferendis impedit quaerat, reprehenderit
-                temporibus. Aspernatur ratione reiciendis voluptates vitae fuga sed cupiditate magni, tenetur iusto
-                reprehenderit rerum voluptatum dolor voluptas dolore debitis accusamus dolorum dicta quisquam quia,
-                excepturi optio. Unde nemo nesciunt deleniti placeat ratione, non est officiis praesentium, alias sed
-                asperiores officia! Tenetur dignissimos magnam quasi ullam. Dolor qui laborum vero provident?</p>
-            <p>Laboriosam quibusdam asperiores amet, repellendus explicabo quae hic quod, consequatur odit nostrum
-                eligendi numquam nesciunt placeat praesentium laudantium cumque maxime non earum facilis beatae est
-                suscipit, nulla tempora eaque. Ea, neque? Id blanditiis voluptates nulla exercitationem, similique nihil
-                dolores ipsum numquam eius maxime accusamus quidem nobis modi explicabo sunt, animi, adipisci culpa
-                aliquam. Facilis voluptatem fugiat asperiores! Illo reiciendis in deserunt necessitatibus modi placeat
-                fugiat obcaecati numquam aliquam veritatis fuga ducimus nihil doloribus suscipit corrupti architecto,
-                vero, animi nulla, id excepturi voluptas odio blanditiis! Eos veritatis nisi a obcaecati fuga distinctio
-                voluptatem odio necessitatibus, accusamus accusantium earum ad quae in?</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ratione ad adipisci quas consequuntur aut
-                laudantium aspernatur est ducimus, unde magnam architecto cumque aperiam tempore molestias, non nesciunt
-                nostrum eveniet autem possimus quis voluptas illo! Obcaecati odio nam eos itaque nisi voluptas natus ex
-                cumque dolore illo id sed accusantium quisquam, expedita ipsa, cupiditate, iure velit. Sint ratione rem
-                esse voluptatibus, quae pariatur. Possimus modi, maiores blanditiis corporis facilis tempora dolorem
-                officia veritatis aperiam architecto molestias nisi quod consequuntur expedita ut nam eum reiciendis
-                facere iure eos quisquam voluptas! Earum qui atque unde commodi at excepturi consequuntur nemo id magni.
-            </p>
-            <p>Earum atque reiciendis ipsum debitis totam quo aperiam necessitatibus fuga quia pariatur omnis, veniam
-                hic molestias dignissimos, aut maxime ad itaque, eligendi ut rem ullam. Quod minus reiciendis sequi rem,
-                error dolor itaque quidem dolores, recusandae mollitia consequuntur dolore neque temporibus! Porro autem
-                et molestiae vel labore fugiat reiciendis atque sapiente totam, sit aspernatur adipisci dolores sequi,
-                ab maiores corporis cumque quod eveniet cum voluptate id repellendus? Consectetur dignissimos repellat
-                doloribus molestias unde beatae officia atque fugiat, eaque ex animi consequatur quae in nemo,
-                voluptatum reprehenderit at voluptatibus placeat corrupti impedit blanditiis! Quam dignissimos error
-                laboriosam voluptas ipsam dicta dolorum?</p>
-            <p>Minus at architecto repudiandae id, adipisci, iure doloribus repellat veniam cupiditate culpa consectetur
-                dolor ducimus fuga, aperiam corrupti incidunt. Odio, enim asperiores impedit totam quisquam vero minima
-                accusantium corrupti voluptatibus? Iusto quo veritatis officia commodi, ipsum dicta fugit magni quisquam
-                totam neque ab eveniet tempora, ex voluptate laboriosam, deleniti nemo saepe harum a cumque. Commodi
-                cumque nam inventore similique quod at nostrum nulla laborum! Incidunt animi at accusamus repellat
-                perspiciatis. Temporibus laborum facere laboriosam quos officiis expedita vero sapiente consequuntur
-                similique architecto, saepe impedit obcaecati eius tempora dolore magnam excepturi natus unde inventore
-                quidem! Asperiores excepturi sed mollitia saepe! Minus!</p>
-            <p>Accusamus iste quis debitis tenetur? Laudantium eaque mollitia reprehenderit explicabo doloribus rem
-                tempora placeat dolore optio, numquam magni ut ad dolor minus suscipit nam corrupti quod neque eveniet,
-                ipsum commodi adipisci. Porro saepe officiis ut quam sit ab dolores aliquam, commodi modi perspiciatis
-                rem ipsum numquam ex eaque eveniet, maiores enim. Quo fuga dolorum accusamus recusandae perspiciatis
-                laboriosam, nam eius optio culpa distinctio, natus modi minima a porro repudiandae deleniti sunt
-                voluptatibus vero sed consequuntur. Quis, necessitatibus excepturi. Ipsum illum corrupti vero repellat.
-                Veniam distinctio asperiores commodi nulla quo porro minima provident odio necessitatibus architecto aut
-                non blanditiis, repudiandae aliquam?</p>
-            <p>Ducimus, velit incidunt. Voluptatum consequatur debitis porro in, facilis officiis veritatis amet
-                consequuntur esse repellendus, quaerat sunt neque earum iste! Voluptas, ad consectetur? Modi sunt
-                veritatis at libero ab natus voluptas. Dolor doloremque blanditiis ullam in delectus dolorem modi, eius
-                est eveniet nemo quaerat libero voluptatem animi similique commodi officiis eum magnam nihil culpa magni
-                deleniti! Cumque repellat, pariatur voluptates voluptas iure provident soluta molestias architecto,
-                debitis maxime eaque excepturi assumenda ratione commodi optio, unde dicta animi voluptatem quisquam
-                deserunt officia id. Harum assumenda magni inventore quos voluptatem ducimus eligendi quia, quis modi ut
-                nesciunt ad temporibus voluptatibus suscipit. Distinctio!</p>
-            <p>Quis, assumenda voluptate eum, repellendus est commodi nulla suscipit, autem expedita deserunt nesciunt
-                nemo? Ratione eum nam omnis amet quaerat libero voluptas eius inventore accusantium ex, beatae
-                necessitatibus facere cumque quasi aut voluptatum maxime voluptates error quis impedit. Tenetur
-                molestiae culpa, animi velit distinctio est alias asperiores sapiente perspiciatis labore, dolore magnam
-                necessitatibus blanditiis impedit obcaecati ex molestias placeat, fugit odit quo quaerat iure! Adipisci
-                aut dolor doloremque rem sit vero illo quis ullam voluptatibus voluptate, veniam repudiandae eaque
-                voluptas laudantium suscipit, quidem doloribus explicabo atque laboriosam vel earum possimus quasi.
-                Deserunt quia perferendis tenetur quos enim officiis inventore reiciendis.</p>
-            <p>Porro, aut. Doloremque quis ipsum expedita consequuntur officia harum omnis odio necessitatibus
-                temporibus. Aspernatur eligendi eos ratione vero laboriosam et numquam corrupti, tempore aliquid ipsam
-                cumque corporis, deleniti rerum aperiam magni vel pariatur facere repudiandae mollitia veniam
-                exercitationem, quaerat suscipit? Suscipit maiores, optio voluptates itaque atque rerum saepe soluta
-                consequuntur modi! Labore sapiente possimus error eveniet. Explicabo accusantium magnam illo sed placeat
-                eos. Temporibus commodi alias, nihil, cum eaque cumque, suscipit consequatur recusandae ducimus vero
-                eos. Architecto voluptas magnam, sunt voluptate nulla tempore quaerat alias mollitia ducimus minus
-                provident magni! Accusantium animi repellat numquam! Eum, labore rerum? Alias, quam facere!</p>
-            <p>Ad natus est assumenda, fuga adipisci architecto dolor nostrum fugiat harum? Id asperiores enim delectus
-                recusandae nisi error, laboriosam quisquam dolorem aperiam eius nostrum repellat sapiente ut vero,
-                laborum reiciendis assumenda laudantium maxime nesciunt ad voluptas! Quibusdam architecto beatae eum
-                minus, eius ipsam ut, vero error inventore minima earum, sapiente deleniti blanditiis possimus
-                distinctio voluptas sit dolore alias excepturi nulla consequuntur molestiae harum? Cumque, laudantium.
-                Dolor quibusdam distinctio, adipisci iusto quaerat mollitia expedita officiis blanditiis repudiandae
-                exercitationem deserunt dignissimos laborum ipsam enim eum nulla et corrupti atque voluptatem delectus!
-                Tenetur iste velit corporis ipsum, tempore incidunt praesentium ipsa quo impedit!</p>
-            <p>Doloribus dolorum id hic facere voluptatibus! Consequatur, quo voluptate. Pariatur facilis modi tenetur
-                nesciunt non eum doloribus maxime, possimus commodi iste illo placeat voluptates consequuntur enim, ipsa
-                laboriosam at vitae, voluptate fugit! Assumenda numquam consectetur inventore magni obcaecati quisquam
-                officiis veniam adipisci quis animi! Quo sunt voluptas quam tenetur. Omnis doloremque eaque mollitia
-                voluptates. Laborum quam iusto ex? Possimus rem temporibus sed quis eligendi nulla assumenda dicta vero
-                minima dolorum ad sapiente nihil consequuntur in tempore, vel quaerat magni? Provident dolor modi
-                nostrum pariatur perspiciatis explicabo aliquid. Repellendus, harum autem vitae tempore ipsum ut commodi
-                ullam molestias illum, repellat accusantium!</p>
-            <p>Reprehenderit sapiente aspernatur beatae saepe pariatur. Est, blanditiis iure quod soluta dolores debitis
-                quas hic labore. Eveniet ea eos officia, tempora fugiat impedit. Officiis, quibusdam expedita vel
-                molestias numquam eveniet quas. Et, modi, ex optio porro impedit exercitationem aut eaque, voluptate
-                quisquam nam asperiores odit necessitatibus? Maxime reiciendis, excepturi consequatur quos beatae aut
-                quo ut veniam distinctio nostrum ab quaerat debitis molestiae quia dolore accusantium, quas voluptatibus
-                perspiciatis sequi autem impedit magnam fuga facilis. Consequuntur accusamus vel magni. Doloremque ab
-                tempora fuga pariatur earum eaque exercitationem enim tenetur, illum, voluptatibus expedita minus
-                corporis sed rerum, provident illo temporibus ex natus.</p>
-        </div>
-    </div>
-
-    <script type="text/javascript" src="../scripts/navbar.js"></script>
-</body>
-
-</html>
+    <svg id="map" preserveAspectRatio="xMinYMin meet" class="Hawaii" xmlns="http://www.w3.org/2000/svg"
+        viewbox="0 0 400 200" version="1.0">
+        <g id="states" fill-opacity="1" fill-rule="nonzero" stroke="none" font-size="12"
+            transform="translate(-260.30998 -416.36556)">
+            <a>
+                <path id="Kauai"
+                    d="M303.46576 421.55052h4.99585l2.15081 1.43009.70556 2.13946v1.43388l-1.43008 3.56575v4.29028l-2.85639 2.85259-2.13566 1.43767-7.14289-.72072-2.86018-2.85259-4.28648-1.4339-1.43008-1.42629v-2.14704l2.14703-2.8564 7.14666-5.71278h4.99585m-33.57873 22.86631-.71316-.72453.71316-4.28269 4.28648-2.86019.71695-2.13944h2.14325l-.71316 4.99963-3.57334 1.43009-2.14324 3.57713h-.71694" />
+            </a>
+            <a>
+                <path id="Honolulu"
+                    d="m388.48988 461.55139-2.86398 2.15463v-.71695l-4.28647 1.42629-3.57335-2.14324-7.14287.71695-2.86019.71695-1.4263-3.58094-2.14704-1.42629-.70935-2.13945-2.14703-2.14703v-2.14325l-2.14325-1.4225 7.14667-1.43767 3.57334-4.99206 2.14325-1.43389 2.13944.70936 3.57333 6.42972h.71316l.71315 1.4339-.71315 1.42628.71315 2.13946 2.86018 2.15083.71314-2.15083h1.4301v2.15083l1.43009.71694.71316 2.8564 2.15082.70556" />
+            </a>
+            <a>
+                <path id="Maui"
+                    d="M420.63093 467.27176h.72074l1.4301.70935h.70935l-.70935-1.4263 6.42212-1.42629 2.8602.71694-1.4301 2.86018-4.28647 2.85259h-2.14324l-8.5654-1.42249-10.00307.70937h-.72072l2.15083-5.71659h.71313l10.00308.71694 2.14324.70935.70556.71695m17.14594 4.99963 2.14324.71695 3.57334 5.71658 7.14287-3.56955 4.28649.71315v.71315l5.71657 3.57714 4.99964 1.42629.71315 1.42629v2.85259l-2.8564 2.8602-3.57333 1.43009-7.14288 2.86398h-5.00342l-1.4301-.72073-1.4263-8.56918-2.13943-.71695-1.43011 1.42252-4.28649-2.13946-2.85638-2.86018-.71694-2.8526 1.43009-2.86019.71316-1.43009h2.14323m-18.56844 6.43353h4.99585l2.86017 2.14323 1.42631 2.14324-.71695 2.85259-6.42214 2.15084-.72074-2.86018-.70556-2.14325-2.8564-2.85258v-.72454l2.13946-.70935m21.42863 14.29333.71314.70936.71316 2.8564-5.7166 1.43008-2.13943-.72073 1.42631-2.13187 5.00342-2.14324" />
+            </a>
+            <a>
+                <path id="Hawaii"
+                    d="m489.22227 570.1512-1.42629 1.43007-2.86018-2.14323-7.14289-2.8564-1.43768-2.14703-.71314-1.42631.71314-11.43316-4.99963-12.15008-2.86019-2.85261-2.14324-2.85638.71694-2.15084 4.28649-4.28268 4.99963-6.42595v-2.85637l-3.56953-5.00343-.71696-2.8564.71696-2.86399 1.42628-.71313 4.29029.71313 1.4263 2.14325 6.43352 2.86398 7.86361 1.4263 8.57297 3.57713 5.71658 3.56953 2.8564 3.56955.71313 5.72036 3.56956-.71693 1.43008 2.13565v2.86398l3.57335 2.8564 4.99963 2.13945-1.43011 2.86017-7.85602 7.14288-6.42972 3.58094-5.71658.71315-6.42973 4.99582-3.56954 2.13946-5.00343 9.29372" />
+            </a>
+            <a>
+                <path id="Kalawao"
+                    d="m419.92537 466.55481-2.14324-.70935 4.99964.70935.70935 1.4263h-.70935l-1.4301-.70935h-.72074l-.70556-.71695" />
+            </a>
+        </g>
+    </svg>

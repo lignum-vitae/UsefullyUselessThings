@@ -1,204 +1,61 @@
-<!DOCTYPE html>
-<html class="colour-scheme adaptive">
-
-<head>
-    <link rel="stylesheet" href="../scripts/index.css">
-    <link rel="stylesheet" href="../scripts/navbar.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela Round">
-
-    <title>Wonderfully Useless Welcome Page</title>
-
-    <script src="scripts/htmx/htmx.min.js"></script>
-</head>
-
-<body>
-    <div id="header" class="center">
-        <h1>Usefully Useless Things</h1>
-        <img style="width: 16vw" , alt="Flag of DC" ,
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_District_of_Columbia_%283-2%29.svg/640px-Flag_of_the_District_of_Columbia_%283-2%29.svg.png">
+<div class="body">
+    <div style="padding-left:16px">
+        <h1>Purpose</h1>
+        <p>The purpose of this website is twofold. The primary goal is to practice my data illustration skills and
+            build my toolkit as a data scientist, but also to have a collection of graphs, or charts, or anything
+            that may be useful to someone; even if it may not be useful to me.</p>
     </div>
 
-    <iframe id="navbar" scrolling="no" src="navbar.html"></iframe>
+    <link rel="stylesheet" href="../scripts/map.css">
 
-    <div class="body">
-        <div style="padding-left:16px">
-            <h1>Purpose</h1>
-            <p>The purpose of this website is twofold. The primary goal is to practice my data illustration skills and
-                build my toolkit as a data scientist, but also to have a collection of graphs, or charts, or anything
-                that may be useful to someone; even if it may not be useful to me.</p>
-        </div>
-
-        <link rel="stylesheet" href="../scripts/map.css">
-
-        <svg id="map" preserveAspectRatio="xMinYMin meet" xmlns:svg="http://www.w3.org/2000/svg"
-            xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-            version="1.1" viewbox="0 0 700 850">
-            <g id="states" transform="translate(-42.759936,-99.09282)" id="layer1">
-                <g transform="matrix(1.2155061,0,0,1.2155061,141.0853,148.03682)" id="g2917">
-                    <g transform="matrix(2593.37,0,0,3361.59,199921,131049)" id="dccouncildistricts"
-                        style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.00084671;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-                        <a>
-                            <path id="dccouncildistricts_004"
-                                d="m -77.026651,-38.935258 -0.0063,-0.0017 -0.0039,-9.69e-4 -2e-4,8.1e-5 -0.0041,0.0018 -0.0064,10e-4 -0.0028,0.0016 -5e-4,-10e-5 0.0025,-0.0021 -1.29e-4,-9.52e-4 -0.0022,-5.19e-4 -0.0017,-6.55e-4 0.0024,-0.0061 0.0019,-0.0018 0.0021,-9.51e-4 -0.0016,-0.0033 0.0046,-0.0043 2.79e-4,-0.0062 -9.35e-4,-0.0015 -0.0012,0.0014 -0.003,2.45e-4 -0.0028,-0.0015 -0.0058,7.83e-4 1.64e-4,0.0026 -0.0015,0.0018 -4.19e-4,1.67e-4 -0.0016,-9.21e-4 -0.0056,-8.48e-4 -0.0051,-0.01207 -0.0011,-0.0016 0.01732,-0.01362 c 0,0 0.0016,-0.0012 0.0017,-0.0013 l 3.79e-4,-3.3e-4 0,0 0.01094,-0.0086 0.0047,0.0034 0.0207,0.0158 0.0018,0.0015 0.0055,0.0043 0.0058,0.0047 0.01034,0.0083 -0.0035,5.39e-4 -0.0027,5.13e-4 -0.0017,0.0017 -0.0022,-0.0021 -0.0017,0.0015 -0.0048,0.0012 2.78e-4,0.0072 -5.85e-4,0.0015 -0.0028,0.0023 -0.0041,0.0044 -0.0016,0.0011 -0.0015,3.54e-4 -0.0046,8.74e-4 -0.0014,0.0014 -9.36e-4,-4.75e-4 0,0 -3.78e-4,3.16e-4 -6.9e-5,1.68e-4 -3e-5,2e-5 3.8e-5,-7.6e-5 1e-6,4.8e-5 z">
-                            </path>
-                        </a>
-                        <a>
-                            <path id="dccouncildistricts_003"
-                                d="m -77.0693,-38.91651 -0.0036,0 -0.0027,-1.5e-4 -5e-5,-7.5e-4 -0.0046,10e-6 8.7e-4,8.9e-4 9.8e-4,0.0023 5.1e-4,0.01005 1.1e-4,0.0027 -0.0045,-4.5e-4 -0.008,-0.0023 -0.0035,-0.0017 -0.0075,-0.0052 -0.0022,-0.0018 -0.0029,-0.0062 -0.0071,-0.0061 -0.0032,-0.0037 -0.0013,-0.0035 -0.002,-0.0019 0.0154,-0.0121 0.0038,-0.0025 0.0092,-0.0076 0.01965,-0.01511 0.0016,0.002 0.005,0.0116 0.0059,9e-4 9e-4,0.001 0.001,-4e-4 0.0013,-0.0017 -2e-4,-0.0026 0.0059,-8e-4 0.0027,0.0015 0.0032,-3e-4 0.001,-9e-4 0.0011,0.0014 -3e-4,0.0056 -0.0049,0.0045 0.0018,0.0032 -0.0026,0.0012 -0.0018,0.0019 -0.0022,0.0058 0.0021,8e-4 0.0018,1e-4 3e-4,0.0017 -0.0025,0.0021 -2e-4,-1e-4 -0.0024,-10e-5 -0.0026,0.0027 0.0058,0.0096 -0.0013,0.0016 -0.0012,-3e-4 -0.0054,0.0022 -0.0013,-8e-4 -0.0044,-2e-4 -0.0032,0.0012 -0.0015,6.7e-4 -9e-4,-0.0011 0,0.0011 0,0 z">
-                            </path>
-                        </a>
-                        <a>
-                            <path id="dccouncildistricts_005"
-                                d="m -77.0137,-38.90691 -0.0016,-2e-4 -0.0028,-0.0074 0.0013,5e-4 0.0025,-9e-4 -7e-4,-0.0057 0.0028,-6e-4 0,-0.005 -0.0015,0 -0.0039,-0.0018 -0.0015,-0.0055 0,-0.0039 0.0016,-4e-4 0.0013,-10e-4 0.0039,-0.0043 0.0031,-0.0025 5e-4,-10e-4 -3e-4,-0.0078 0.0052,-0.0011 0.0015,-0.001 0.0021,0.0017 0.0015,-0.0017 0.0012,-4e-4 0.0053,-5.1e-4 0.05024,0.03883 -0.0015,0.0018 -0.0027,0.0013 -0.0069,8e-4 -0.0086,0.0146 -6e-5,0.0034 -0.0078,-0.0012 -0.007,-9e-4 -0.0069,-0.0013 -0.0013,-1e-4 -0.0199,-0.0085 -0.0047,0.0012 -0.0045,0.0018 0,-0.0012 0,-1e-5 z">
-                            </path>
-                        </a>
-                        <a>
-                            <path id="dccouncildistricts_001"
-                                d="m -77.0205,-38.91551 -5e-4,2e-4 0,0.0014 -0.0111,0 0,-0.0029 -0.0087,0 -0.0052,0.0026 -4e-4,-0.0021 -0.0015,-0.0021 -0.0013,-7e-4 -9e-4,-0.0018 -0.0058,-0.0096 0.0026,-0.0027 0.0024,1e-4 2.01e-4,-2e-5 7.91e-4,-6.65e-4 0.0013,-0.0011 9.74e-4,-9.5e-5 0.0064,-10e-4 0.0046,-0.002 7.26e-4,3.26e-4 0.001,2.56e-4 0.002,5.18e-4 0.0034,9.08e-4 0.0032,2.9e-4 8.54e-4,7.02e-4 10e-4,-0.0014 0.0053,-10e-4 0,0.0039 0.0015,0.0055 0.0039,0.0018 0.0015,0 0,0.005 -0.0028,6e-4 7e-4,0.0057 -0.0025,9e-4 -0.0013,-5e-4 -0.0024,-10e-4 0,0 z">
-                            </path>
-                        </a>
-                        <a>
-                            <path id="dccouncildistricts_002"
-                                d="m -77.00993,-38.89186 7.4e-4,3.5e-4 8e-4,2e-4 3.1e-4,0.0017 -0.0011,0.0018 1e-4,0.0047 1e-4,0.0015 -0.002,-5e-4 -0.0171,10e-5 -0.0026,0.0013 0.0065,0.0044 0.0038,0.0081 1e-4,0.0112 -0.0114,0.0065 -0.0076,-0.0138 4e-4,-0.0015 -2e-4,-0.0023 -0.0015,-0.0031 -0.0027,-0.0028 -0.0021,-0.0012 -0.0012,3e-4 0.001,0.0019 -7e-4,0.0017 -0.0028,6e-4 -0.0022,-0.0025 2e-4,-0.002 -0.003,-0.0039 -0.0011,-9e-4 -0.0031,-6e-5 -0.0052,-0.0085 -0.0038,-0.0106 -9e-4,-6e-4 -0.0019,-9e-4 -0.0076,-7.5e-4 -1.1e-4,-0.0027 -5.1e-4,-0.01005 -9.8e-4,-0.0023 -8.7e-4,-8.9e-4 0.0046,-10e-6 5e-5,7.5e-4 0.0027,1.5e-4 0.0036,0 0,-0.0011 9e-4,0.0011 0.0015,-6.7e-4 0.0032,-0.0012 0.0044,2e-4 0.0013,8e-4 0.0054,-0.0022 0.0012,3e-4 0.0013,-0.0016 9e-4,0.0018 0.0013,7e-4 0.0015,0.0021 4e-4,0.0021 0.0052,-0.0026 0.0087,0 0,0.0029 0.0111,0 0,-0.0014 5e-4,-2e-4 0.0024,10e-4 0.0028,0.0074 -0.001,0 1e-4,0.0022 -0.0037,0.0013 4e-5,0.0077 -0.0042,0 0,0.0021 0.0064,0.0019 0.0078,6e-5 0,0 z">
-                            </path>
-                        </a>
-                        <a>
-                            <path id="dccouncildistricts_007"
-                                d="m -76.9709,-38.87321 4e-4,-2e-4 -0.004,-0.0018 -0.0037,-0.0016 0.0039,-10e-4 0.0026,-0.0018 0.0081,-0.01008 -0.0048,-2e-5 -0.003,-0.002 -0.0025,0.0015 -3.6e-4,1e-5 -4e-5,-6.1e-4 -0.0021,-0.0026 -0.001,1e-5 0.001,-0.0054 0.007,9e-4 0.0078,0.0012 6e-5,-0.0034 0.0086,-0.0146 0.0069,-8e-4 0.0027,-0.0013 0.0015,-0.0018 0.0068,0.0053 0.0257,0.0205 -0.0014,0.0011 -0.0085,0.0066 -9e-4,7e-4 -0.0295,0.0231 -0.004,0.0028 -0.008,0.0064 -10e-4,-1.1e-4 -0.0031,-0.003 -0.0022,-0.0033 0,-0.0018 -6e-4,-5e-4 -0.0022,-0.0034 -0.0021,0.0011 -0.0061,-0.0024 -0.0056,-10e-4 0.0035,-0.0016 0.01,-10e-6 2e-4,-0.0051 0,1e-5 z">
-                            </path>
-                        </a>
-                        <a>
-                            <path id="dccouncildistricts_006"
-                                d="m -76.9714,-38.89171 0.003,0.002 0.0048,2e-5 -0.0081,0.01008 -0.0026,0.0018 -0.0039,10e-4 -0.0057,0.0019 -0.0087,0.0048 -0.0109,-6e-4 -0.0022,0.002 -0.0025,0.0046 -0.0121,0.0071 -10e-5,-0.0112 -0.0038,-0.0081 -0.0065,-0.0044 0.0026,-0.0013 0.0171,-10e-5 0.002,5e-4 -1e-4,-0.0015 -1e-4,-0.0047 0.0011,-0.0018 -3.1e-4,-0.0017 -8e-4,-2e-4 -7.4e-4,-3.5e-4 -0.0078,-6e-5 -0.0064,-0.0019 0,-0.0021 0.0042,0 -4e-5,-0.0077 0.0037,-0.0013 -1e-4,-0.0022 0.001,0 0.0016,2e-4 0,0.0012 0.0045,-0.0018 0.0047,-0.0012 0.0199,0.0085 0.0013,10e-5 0.0069,0.0013 -0.001,0.0054 0.001,-1e-5 0.0021,0.0026 4e-5,6.1e-4 3.6e-4,-1e-5 0.0025,-0.0015 0,0 z">
-                            </path>
-                        </a>
-                        <a>
-                            <path id="dccouncildistricts_008"
-                                d="m -77.0203,-38.85701 0.0121,-0.0071 0.0025,-0.0046 0.0022,-0.002 0.0109,6e-4 0.0087,-0.0048 0.0057,-0.0019 0.0037,0.0016 0.004,0.0018 -4e-4,2e-4 -2e-4,0.0051 -0.01,1e-5 -0.0035,0.0016 0.0056,0.001 0.0061,0.0024 0.0021,-0.0011 0.0022,0.0034 6e-4,5e-4 0,0.0018 0.0022,0.0033 0.0031,0.003 0.001,1.1e-4 -0.01781,0.01429 -0.0132,0.0096 -0.0073,0.0063 -0.0014,4e-4 -0.0372,0.03 -3e-4,-0.0093 0.0031,-0.0141 -0.0023,-7e-4 -10e-4,-0.0058 10e-4,-0.0072 -0.0011,-0.0036 -0.002,-0.0015 -0.0014,-10e-5 -9e-4,6e-4 -0.0014,-0.0015 -1e-4,-0.0038 8e-4,-0.0017 0.0025,0 0.0089,-0.0015 0.0011,-0.0088 0.0114,-0.0065 0,0 z">
-                            </path>
-                        </a>
-                    </g>
+    <svg id="map" preserveAspectRatio="xMinYMin meet" xmlns:svg="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        version="1.1" viewbox="0 0 700 850">
+        <g id="states" transform="translate(-42.759936,-99.09282)" id="layer1">
+            <g transform="matrix(1.2155061,0,0,1.2155061,141.0853,148.03682)" id="g2917">
+                <g transform="matrix(2593.37,0,0,3361.59,199921,131049)" id="dccouncildistricts"
+                    style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.00084671;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
+                    <a>
+                        <path id="dccouncildistricts_004"
+                            d="m -77.026651,-38.935258 -0.0063,-0.0017 -0.0039,-9.69e-4 -2e-4,8.1e-5 -0.0041,0.0018 -0.0064,10e-4 -0.0028,0.0016 -5e-4,-10e-5 0.0025,-0.0021 -1.29e-4,-9.52e-4 -0.0022,-5.19e-4 -0.0017,-6.55e-4 0.0024,-0.0061 0.0019,-0.0018 0.0021,-9.51e-4 -0.0016,-0.0033 0.0046,-0.0043 2.79e-4,-0.0062 -9.35e-4,-0.0015 -0.0012,0.0014 -0.003,2.45e-4 -0.0028,-0.0015 -0.0058,7.83e-4 1.64e-4,0.0026 -0.0015,0.0018 -4.19e-4,1.67e-4 -0.0016,-9.21e-4 -0.0056,-8.48e-4 -0.0051,-0.01207 -0.0011,-0.0016 0.01732,-0.01362 c 0,0 0.0016,-0.0012 0.0017,-0.0013 l 3.79e-4,-3.3e-4 0,0 0.01094,-0.0086 0.0047,0.0034 0.0207,0.0158 0.0018,0.0015 0.0055,0.0043 0.0058,0.0047 0.01034,0.0083 -0.0035,5.39e-4 -0.0027,5.13e-4 -0.0017,0.0017 -0.0022,-0.0021 -0.0017,0.0015 -0.0048,0.0012 2.78e-4,0.0072 -5.85e-4,0.0015 -0.0028,0.0023 -0.0041,0.0044 -0.0016,0.0011 -0.0015,3.54e-4 -0.0046,8.74e-4 -0.0014,0.0014 -9.36e-4,-4.75e-4 0,0 -3.78e-4,3.16e-4 -6.9e-5,1.68e-4 -3e-5,2e-5 3.8e-5,-7.6e-5 1e-6,4.8e-5 z">
+                        </path>
+                    </a>
+                    <a>
+                        <path id="dccouncildistricts_003"
+                            d="m -77.0693,-38.91651 -0.0036,0 -0.0027,-1.5e-4 -5e-5,-7.5e-4 -0.0046,10e-6 8.7e-4,8.9e-4 9.8e-4,0.0023 5.1e-4,0.01005 1.1e-4,0.0027 -0.0045,-4.5e-4 -0.008,-0.0023 -0.0035,-0.0017 -0.0075,-0.0052 -0.0022,-0.0018 -0.0029,-0.0062 -0.0071,-0.0061 -0.0032,-0.0037 -0.0013,-0.0035 -0.002,-0.0019 0.0154,-0.0121 0.0038,-0.0025 0.0092,-0.0076 0.01965,-0.01511 0.0016,0.002 0.005,0.0116 0.0059,9e-4 9e-4,0.001 0.001,-4e-4 0.0013,-0.0017 -2e-4,-0.0026 0.0059,-8e-4 0.0027,0.0015 0.0032,-3e-4 0.001,-9e-4 0.0011,0.0014 -3e-4,0.0056 -0.0049,0.0045 0.0018,0.0032 -0.0026,0.0012 -0.0018,0.0019 -0.0022,0.0058 0.0021,8e-4 0.0018,1e-4 3e-4,0.0017 -0.0025,0.0021 -2e-4,-1e-4 -0.0024,-10e-5 -0.0026,0.0027 0.0058,0.0096 -0.0013,0.0016 -0.0012,-3e-4 -0.0054,0.0022 -0.0013,-8e-4 -0.0044,-2e-4 -0.0032,0.0012 -0.0015,6.7e-4 -9e-4,-0.0011 0,0.0011 0,0 z">
+                        </path>
+                    </a>
+                    <a>
+                        <path id="dccouncildistricts_005"
+                            d="m -77.0137,-38.90691 -0.0016,-2e-4 -0.0028,-0.0074 0.0013,5e-4 0.0025,-9e-4 -7e-4,-0.0057 0.0028,-6e-4 0,-0.005 -0.0015,0 -0.0039,-0.0018 -0.0015,-0.0055 0,-0.0039 0.0016,-4e-4 0.0013,-10e-4 0.0039,-0.0043 0.0031,-0.0025 5e-4,-10e-4 -3e-4,-0.0078 0.0052,-0.0011 0.0015,-0.001 0.0021,0.0017 0.0015,-0.0017 0.0012,-4e-4 0.0053,-5.1e-4 0.05024,0.03883 -0.0015,0.0018 -0.0027,0.0013 -0.0069,8e-4 -0.0086,0.0146 -6e-5,0.0034 -0.0078,-0.0012 -0.007,-9e-4 -0.0069,-0.0013 -0.0013,-1e-4 -0.0199,-0.0085 -0.0047,0.0012 -0.0045,0.0018 0,-0.0012 0,-1e-5 z">
+                        </path>
+                    </a>
+                    <a>
+                        <path id="dccouncildistricts_001"
+                            d="m -77.0205,-38.91551 -5e-4,2e-4 0,0.0014 -0.0111,0 0,-0.0029 -0.0087,0 -0.0052,0.0026 -4e-4,-0.0021 -0.0015,-0.0021 -0.0013,-7e-4 -9e-4,-0.0018 -0.0058,-0.0096 0.0026,-0.0027 0.0024,1e-4 2.01e-4,-2e-5 7.91e-4,-6.65e-4 0.0013,-0.0011 9.74e-4,-9.5e-5 0.0064,-10e-4 0.0046,-0.002 7.26e-4,3.26e-4 0.001,2.56e-4 0.002,5.18e-4 0.0034,9.08e-4 0.0032,2.9e-4 8.54e-4,7.02e-4 10e-4,-0.0014 0.0053,-10e-4 0,0.0039 0.0015,0.0055 0.0039,0.0018 0.0015,0 0,0.005 -0.0028,6e-4 7e-4,0.0057 -0.0025,9e-4 -0.0013,-5e-4 -0.0024,-10e-4 0,0 z">
+                        </path>
+                    </a>
+                    <a>
+                        <path id="dccouncildistricts_002"
+                            d="m -77.00993,-38.89186 7.4e-4,3.5e-4 8e-4,2e-4 3.1e-4,0.0017 -0.0011,0.0018 1e-4,0.0047 1e-4,0.0015 -0.002,-5e-4 -0.0171,10e-5 -0.0026,0.0013 0.0065,0.0044 0.0038,0.0081 1e-4,0.0112 -0.0114,0.0065 -0.0076,-0.0138 4e-4,-0.0015 -2e-4,-0.0023 -0.0015,-0.0031 -0.0027,-0.0028 -0.0021,-0.0012 -0.0012,3e-4 0.001,0.0019 -7e-4,0.0017 -0.0028,6e-4 -0.0022,-0.0025 2e-4,-0.002 -0.003,-0.0039 -0.0011,-9e-4 -0.0031,-6e-5 -0.0052,-0.0085 -0.0038,-0.0106 -9e-4,-6e-4 -0.0019,-9e-4 -0.0076,-7.5e-4 -1.1e-4,-0.0027 -5.1e-4,-0.01005 -9.8e-4,-0.0023 -8.7e-4,-8.9e-4 0.0046,-10e-6 5e-5,7.5e-4 0.0027,1.5e-4 0.0036,0 0,-0.0011 9e-4,0.0011 0.0015,-6.7e-4 0.0032,-0.0012 0.0044,2e-4 0.0013,8e-4 0.0054,-0.0022 0.0012,3e-4 0.0013,-0.0016 9e-4,0.0018 0.0013,7e-4 0.0015,0.0021 4e-4,0.0021 0.0052,-0.0026 0.0087,0 0,0.0029 0.0111,0 0,-0.0014 5e-4,-2e-4 0.0024,10e-4 0.0028,0.0074 -0.001,0 1e-4,0.0022 -0.0037,0.0013 4e-5,0.0077 -0.0042,0 0,0.0021 0.0064,0.0019 0.0078,6e-5 0,0 z">
+                        </path>
+                    </a>
+                    <a>
+                        <path id="dccouncildistricts_007"
+                            d="m -76.9709,-38.87321 4e-4,-2e-4 -0.004,-0.0018 -0.0037,-0.0016 0.0039,-10e-4 0.0026,-0.0018 0.0081,-0.01008 -0.0048,-2e-5 -0.003,-0.002 -0.0025,0.0015 -3.6e-4,1e-5 -4e-5,-6.1e-4 -0.0021,-0.0026 -0.001,1e-5 0.001,-0.0054 0.007,9e-4 0.0078,0.0012 6e-5,-0.0034 0.0086,-0.0146 0.0069,-8e-4 0.0027,-0.0013 0.0015,-0.0018 0.0068,0.0053 0.0257,0.0205 -0.0014,0.0011 -0.0085,0.0066 -9e-4,7e-4 -0.0295,0.0231 -0.004,0.0028 -0.008,0.0064 -10e-4,-1.1e-4 -0.0031,-0.003 -0.0022,-0.0033 0,-0.0018 -6e-4,-5e-4 -0.0022,-0.0034 -0.0021,0.0011 -0.0061,-0.0024 -0.0056,-10e-4 0.0035,-0.0016 0.01,-10e-6 2e-4,-0.0051 0,1e-5 z">
+                        </path>
+                    </a>
+                    <a>
+                        <path id="dccouncildistricts_006"
+                            d="m -76.9714,-38.89171 0.003,0.002 0.0048,2e-5 -0.0081,0.01008 -0.0026,0.0018 -0.0039,10e-4 -0.0057,0.0019 -0.0087,0.0048 -0.0109,-6e-4 -0.0022,0.002 -0.0025,0.0046 -0.0121,0.0071 -10e-5,-0.0112 -0.0038,-0.0081 -0.0065,-0.0044 0.0026,-0.0013 0.0171,-10e-5 0.002,5e-4 -1e-4,-0.0015 -1e-4,-0.0047 0.0011,-0.0018 -3.1e-4,-0.0017 -8e-4,-2e-4 -7.4e-4,-3.5e-4 -0.0078,-6e-5 -0.0064,-0.0019 0,-0.0021 0.0042,0 -4e-5,-0.0077 0.0037,-0.0013 -1e-4,-0.0022 0.001,0 0.0016,2e-4 0,0.0012 0.0045,-0.0018 0.0047,-0.0012 0.0199,0.0085 0.0013,10e-5 0.0069,0.0013 -0.001,0.0054 0.001,-1e-5 0.0021,0.0026 4e-5,6.1e-4 3.6e-4,-1e-5 0.0025,-0.0015 0,0 z">
+                        </path>
+                    </a>
+                    <a>
+                        <path id="dccouncildistricts_008"
+                            d="m -77.0203,-38.85701 0.0121,-0.0071 0.0025,-0.0046 0.0022,-0.002 0.0109,6e-4 0.0087,-0.0048 0.0057,-0.0019 0.0037,0.0016 0.004,0.0018 -4e-4,2e-4 -2e-4,0.0051 -0.01,1e-5 -0.0035,0.0016 0.0056,0.001 0.0061,0.0024 0.0021,-0.0011 0.0022,0.0034 6e-4,5e-4 0,0.0018 0.0022,0.0033 0.0031,0.003 0.001,1.1e-4 -0.01781,0.01429 -0.0132,0.0096 -0.0073,0.0063 -0.0014,4e-4 -0.0372,0.03 -3e-4,-0.0093 0.0031,-0.0141 -0.0023,-7e-4 -10e-4,-0.0058 10e-4,-0.0072 -0.0011,-0.0036 -0.002,-0.0015 -0.0014,-10e-5 -9e-4,6e-4 -0.0014,-0.0015 -1e-4,-0.0038 8e-4,-0.0017 0.0025,0 0.0089,-0.0015 0.0011,-0.0088 0.0114,-0.0065 0,0 z">
+                        </path>
+                    </a>
                 </g>
             </g>
-        </svg>
-
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nisi quo molestias pariatur atque quis
-                dignissimos. Quae ullam dolorem voluptatem quisquam asperiores, odio, esse aut non doloribus amet eius
-                saepe obcaecati quis corrupti aspernatur blanditiis beatae distinctio doloremque possimus cum expedita
-                ea. Doloremque sunt, repudiandae veniam iste quia ducimus aliquam nostrum a? Quas labore, nihil eveniet
-                similique facere praesentium iusto, reprehenderit veritatis, beatae quaerat dolorem. Inventore dolorum
-                consequatur ex assumenda distinctio voluptates, magnam itaque, expedita fugit cupiditate eius neque
-                eaque delectus similique voluptatibus mollitia sunt officiis. Expedita vero voluptatum excepturi, iure
-                modi id, dignissimos nam enim laudantium ipsa ullam numquam!</p>
-            <p>Vel, eveniet aut aperiam nemo consequuntur rem voluptatum voluptatem, similique debitis eos esse
-                laudantium eius et dolores veritatis perspiciatis repellendus numquam vitae itaque dolore asperiores
-                doloribus? Eum repudiandae nemo fugiat vel hic odio quod saepe itaque, exercitationem maiores magnam
-                officiis sed maxime eius quos harum, sunt tenetur sit enim eligendi praesentium, consequatur dolore in
-                obcaecati. Ducimus neque cum quo iure laboriosam rem libero ad. Animi fuga alias voluptates fugit
-                debitis necessitatibus provident quod earum harum atque, assumenda ad accusantium, deserunt obcaecati
-                vero error deleniti vitae omnis! Totam, animi asperiores? Laboriosam doloribus dicta quos quasi ipsa?
-                Eum officia aliquid animi aut?</p>
-            <p>Mollitia, sit ex dolorem sapiente cumque nulla quos maiores atque quis excepturi qui consequatur, aut
-                odit recusandae ducimus consectetur similique velit ipsum facilis? Iusto asperiores consequatur nisi
-                esse, tempora voluptate repellendus, ipsam officia earum, labore deleniti quibusdam minus magni vel
-                quidem? A mollitia consectetur repellat aspernatur perferendis impedit quaerat, reprehenderit
-                temporibus. Aspernatur ratione reiciendis voluptates vitae fuga sed cupiditate magni, tenetur iusto
-                reprehenderit rerum voluptatum dolor voluptas dolore debitis accusamus dolorum dicta quisquam quia,
-                excepturi optio. Unde nemo nesciunt deleniti placeat ratione, non est officiis praesentium, alias sed
-                asperiores officia! Tenetur dignissimos magnam quasi ullam. Dolor qui laborum vero provident?</p>
-            <p>Laboriosam quibusdam asperiores amet, repellendus explicabo quae hic quod, consequatur odit nostrum
-                eligendi numquam nesciunt placeat praesentium laudantium cumque maxime non earum facilis beatae est
-                suscipit, nulla tempora eaque. Ea, neque? Id blanditiis voluptates nulla exercitationem, similique nihil
-                dolores ipsum numquam eius maxime accusamus quidem nobis modi explicabo sunt, animi, adipisci culpa
-                aliquam. Facilis voluptatem fugiat asperiores! Illo reiciendis in deserunt necessitatibus modi placeat
-                fugiat obcaecati numquam aliquam veritatis fuga ducimus nihil doloribus suscipit corrupti architecto,
-                vero, animi nulla, id excepturi voluptas odio blanditiis! Eos veritatis nisi a obcaecati fuga distinctio
-                voluptatem odio necessitatibus, accusamus accusantium earum ad quae in?</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ratione ad adipisci quas consequuntur aut
-                laudantium aspernatur est ducimus, unde magnam architecto cumque aperiam tempore molestias, non nesciunt
-                nostrum eveniet autem possimus quis voluptas illo! Obcaecati odio nam eos itaque nisi voluptas natus ex
-                cumque dolore illo id sed accusantium quisquam, expedita ipsa, cupiditate, iure velit. Sint ratione rem
-                esse voluptatibus, quae pariatur. Possimus modi, maiores blanditiis corporis facilis tempora dolorem
-                officia veritatis aperiam architecto molestias nisi quod consequuntur expedita ut nam eum reiciendis
-                facere iure eos quisquam voluptas! Earum qui atque unde commodi at excepturi consequuntur nemo id magni.
-            </p>
-            <p>Earum atque reiciendis ipsum debitis totam quo aperiam necessitatibus fuga quia pariatur omnis, veniam
-                hic molestias dignissimos, aut maxime ad itaque, eligendi ut rem ullam. Quod minus reiciendis sequi rem,
-                error dolor itaque quidem dolores, recusandae mollitia consequuntur dolore neque temporibus! Porro autem
-                et molestiae vel labore fugiat reiciendis atque sapiente totam, sit aspernatur adipisci dolores sequi,
-                ab maiores corporis cumque quod eveniet cum voluptate id repellendus? Consectetur dignissimos repellat
-                doloribus molestias unde beatae officia atque fugiat, eaque ex animi consequatur quae in nemo,
-                voluptatum reprehenderit at voluptatibus placeat corrupti impedit blanditiis! Quam dignissimos error
-                laboriosam voluptas ipsam dicta dolorum?</p>
-            <p>Minus at architecto repudiandae id, adipisci, iure doloribus repellat veniam cupiditate culpa consectetur
-                dolor ducimus fuga, aperiam corrupti incidunt. Odio, enim asperiores impedit totam quisquam vero minima
-                accusantium corrupti voluptatibus? Iusto quo veritatis officia commodi, ipsum dicta fugit magni quisquam
-                totam neque ab eveniet tempora, ex voluptate laboriosam, deleniti nemo saepe harum a cumque. Commodi
-                cumque nam inventore similique quod at nostrum nulla laborum! Incidunt animi at accusamus repellat
-                perspiciatis. Temporibus laborum facere laboriosam quos officiis expedita vero sapiente consequuntur
-                similique architecto, saepe impedit obcaecati eius tempora dolore magnam excepturi natus unde inventore
-                quidem! Asperiores excepturi sed mollitia saepe! Minus!</p>
-            <p>Accusamus iste quis debitis tenetur? Laudantium eaque mollitia reprehenderit explicabo doloribus rem
-                tempora placeat dolore optio, numquam magni ut ad dolor minus suscipit nam corrupti quod neque eveniet,
-                ipsum commodi adipisci. Porro saepe officiis ut quam sit ab dolores aliquam, commodi modi perspiciatis
-                rem ipsum numquam ex eaque eveniet, maiores enim. Quo fuga dolorum accusamus recusandae perspiciatis
-                laboriosam, nam eius optio culpa distinctio, natus modi minima a porro repudiandae deleniti sunt
-                voluptatibus vero sed consequuntur. Quis, necessitatibus excepturi. Ipsum illum corrupti vero repellat.
-                Veniam distinctio asperiores commodi nulla quo porro minima provident odio necessitatibus architecto aut
-                non blanditiis, repudiandae aliquam?</p>
-            <p>Ducimus, velit incidunt. Voluptatum consequatur debitis porro in, facilis officiis veritatis amet
-                consequuntur esse repellendus, quaerat sunt neque earum iste! Voluptas, ad consectetur? Modi sunt
-                veritatis at libero ab natus voluptas. Dolor doloremque blanditiis ullam in delectus dolorem modi, eius
-                est eveniet nemo quaerat libero voluptatem animi similique commodi officiis eum magnam nihil culpa magni
-                deleniti! Cumque repellat, pariatur voluptates voluptas iure provident soluta molestias architecto,
-                debitis maxime eaque excepturi assumenda ratione commodi optio, unde dicta animi voluptatem quisquam
-                deserunt officia id. Harum assumenda magni inventore quos voluptatem ducimus eligendi quia, quis modi ut
-                nesciunt ad temporibus voluptatibus suscipit. Distinctio!</p>
-            <p>Quis, assumenda voluptate eum, repellendus est commodi nulla suscipit, autem expedita deserunt nesciunt
-                nemo? Ratione eum nam omnis amet quaerat libero voluptas eius inventore accusantium ex, beatae
-                necessitatibus facere cumque quasi aut voluptatum maxime voluptates error quis impedit. Tenetur
-                molestiae culpa, animi velit distinctio est alias asperiores sapiente perspiciatis labore, dolore magnam
-                necessitatibus blanditiis impedit obcaecati ex molestias placeat, fugit odit quo quaerat iure! Adipisci
-                aut dolor doloremque rem sit vero illo quis ullam voluptatibus voluptate, veniam repudiandae eaque
-                voluptas laudantium suscipit, quidem doloribus explicabo atque laboriosam vel earum possimus quasi.
-                Deserunt quia perferendis tenetur quos enim officiis inventore reiciendis.</p>
-            <p>Porro, aut. Doloremque quis ipsum expedita consequuntur officia harum omnis odio necessitatibus
-                temporibus. Aspernatur eligendi eos ratione vero laboriosam et numquam corrupti, tempore aliquid ipsam
-                cumque corporis, deleniti rerum aperiam magni vel pariatur facere repudiandae mollitia veniam
-                exercitationem, quaerat suscipit? Suscipit maiores, optio voluptates itaque atque rerum saepe soluta
-                consequuntur modi! Labore sapiente possimus error eveniet. Explicabo accusantium magnam illo sed placeat
-                eos. Temporibus commodi alias, nihil, cum eaque cumque, suscipit consequatur recusandae ducimus vero
-                eos. Architecto voluptas magnam, sunt voluptate nulla tempore quaerat alias mollitia ducimus minus
-                provident magni! Accusantium animi repellat numquam! Eum, labore rerum? Alias, quam facere!</p>
-            <p>Ad natus est assumenda, fuga adipisci architecto dolor nostrum fugiat harum? Id asperiores enim delectus
-                recusandae nisi error, laboriosam quisquam dolorem aperiam eius nostrum repellat sapiente ut vero,
-                laborum reiciendis assumenda laudantium maxime nesciunt ad voluptas! Quibusdam architecto beatae eum
-                minus, eius ipsam ut, vero error inventore minima earum, sapiente deleniti blanditiis possimus
-                distinctio voluptas sit dolore alias excepturi nulla consequuntur molestiae harum? Cumque, laudantium.
-                Dolor quibusdam distinctio, adipisci iusto quaerat mollitia expedita officiis blanditiis repudiandae
-                exercitationem deserunt dignissimos laborum ipsam enim eum nulla et corrupti atque voluptatem delectus!
-                Tenetur iste velit corporis ipsum, tempore incidunt praesentium ipsa quo impedit!</p>
-            <p>Doloribus dolorum id hic facere voluptatibus! Consequatur, quo voluptate. Pariatur facilis modi tenetur
-                nesciunt non eum doloribus maxime, possimus commodi iste illo placeat voluptates consequuntur enim, ipsa
-                laboriosam at vitae, voluptate fugit! Assumenda numquam consectetur inventore magni obcaecati quisquam
-                officiis veniam adipisci quis animi! Quo sunt voluptas quam tenetur. Omnis doloremque eaque mollitia
-                voluptates. Laborum quam iusto ex? Possimus rem temporibus sed quis eligendi nulla assumenda dicta vero
-                minima dolorum ad sapiente nihil consequuntur in tempore, vel quaerat magni? Provident dolor modi
-                nostrum pariatur perspiciatis explicabo aliquid. Repellendus, harum autem vitae tempore ipsum ut commodi
-                ullam molestias illum, repellat accusantium!</p>
-            <p>Reprehenderit sapiente aspernatur beatae saepe pariatur. Est, blanditiis iure quod soluta dolores debitis
-                quas hic labore. Eveniet ea eos officia, tempora fugiat impedit. Officiis, quibusdam expedita vel
-                molestias numquam eveniet quas. Et, modi, ex optio porro impedit exercitationem aut eaque, voluptate
-                quisquam nam asperiores odit necessitatibus? Maxime reiciendis, excepturi consequatur quos beatae aut
-                quo ut veniam distinctio nostrum ab quaerat debitis molestiae quia dolore accusantium, quas voluptatibus
-                perspiciatis sequi autem impedit magnam fuga facilis. Consequuntur accusamus vel magni. Doloremque ab
-                tempora fuga pariatur earum eaque exercitationem enim tenetur, illum, voluptatibus expedita minus
-                corporis sed rerum, provident illo temporibus ex natus.</p>
-        </div>
-    </div>
-
-    <script type="text/javascript" src="../scripts/navbar.js"></script>
-</body>
-
-</html>
+        </g>
+    </svg>
