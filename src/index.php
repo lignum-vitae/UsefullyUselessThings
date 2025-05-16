@@ -1,7 +1,7 @@
 <?php
 $title = "Welcome!";
 ob_start();
-include "nav/index.html";
+require "nav/index.html";
 $content = ob_get_clean();
 ?>
-<?php include "includes/landing.php" ?>
+<?php require "includes/landing.php" ?>

@@ -1,8 +1,8 @@
 <?php
 $title = "";
 ob_start();
-include "nav/playground.html";
+require "nav/playground.html";
 $content = ob_get_clean();
 ?>
 
-<?php include "includes/landing.php" ?>
+<?php require "includes/landing.php" ?>

@@ -9,4 +9,4 @@ $content .= '
     </div>
 ';
 ?>
-<?php include "includes/landing.php" ?>
+<?php require "includes/landing.php" ?>
